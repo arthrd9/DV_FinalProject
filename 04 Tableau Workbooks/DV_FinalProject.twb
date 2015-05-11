@@ -176,346 +176,9 @@
       <column caption='Vector' datatype='string' name='[VECTOR]' role='dimension' type='nominal'>
       </column>
       <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
-    </datasource>
-    <datasource caption='129.152.144.84' inline='true' name='oracle.42135.659959108800' version='9.0'>
-      <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_MAP4542' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_map4542'>
-        <relation name='GRAD_DEBT' table='[C##CS329E_MAP4542].[GRAD_DEBT]' type='table' />
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>REF_DATE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[REF_DATE]</local-name>
-            <parent-name>[GRAD_DEBT]</parent-name>
-            <remote-alias>REF_DATE</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>10</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>GEO</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[GEO]</local-name>
-            <parent-name>[GRAD_DEBT]</parent-name>
-            <remote-alias>GEO</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>25</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SCHOOL</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[SCHOOL]</local-name>
-            <parent-name>[GRAD_DEBT]</parent-name>
-            <remote-alias>SCHOOL</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SOURCE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[SOURCE]</local-name>
-            <parent-name>[GRAD_DEBT]</parent-name>
-            <remote-alias>SOURCE</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>STATS</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[STATS]</local-name>
-            <parent-name>[GRAD_DEBT]</parent-name>
-            <remote-alias>STATS</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>VECTOR</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[VECTOR]</local-name>
-            <parent-name>[GRAD_DEBT]</parent-name>
-            <remote-alias>VECTOR</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>COORDINATE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[COORDINATE]</local-name>
-            <parent-name>[GRAD_DEBT]</parent-name>
-            <remote-alias>COORDINATE</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>VALUE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[VALUE]</local-name>
-            <parent-name>[GRAD_DEBT]</parent-name>
-            <remote-alias>VALUE</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Coordinate' datatype='string' name='[COORDINATE]' role='dimension' type='nominal'>
-      </column>
-      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
-        <calculation class='tableau' formula='1' />
-      </column>
-      <column caption='Ref Date' datatype='string' name='[REF_DATE]' role='dimension' type='nominal'>
-      </column>
-      <column caption='School' datatype='string' name='[SCHOOL]' role='dimension' type='nominal'>
-      </column>
-      <column caption='Source' datatype='string' name='[SOURCE]' role='dimension' type='nominal'>
-      </column>
-      <column caption='Stats' datatype='string' name='[STATS]' role='dimension' type='nominal'>
-      </column>
-      <column caption='Value' datatype='integer' datatype-customized='true' name='[VALUE]' role='dimension' type='ordinal'>
-      </column>
-      <column caption='Vector' datatype='string' name='[VECTOR]' role='dimension' type='nominal'>
-      </column>
-      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
-    </datasource>
-    <datasource caption='GRAD_EMPLOYMENT (C##CS329E_MAP4542)' inline='true' name='oracle.42135.661039791700' version='9.0'>
-      <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_MAP4542' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_map4542'>
-        <relation name='GRAD_EMPLOYMENT' table='[C##CS329E_MAP4542].[GRAD_EMPLOYMENT]' type='table' />
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>REF_DATE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[REF_DATE]</local-name>
-            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
-            <remote-alias>REF_DATE</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>4</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>GEO</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[GEO]</local-name>
-            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
-            <remote-alias>GEO</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SCHOOL</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[SCHOOL]</local-name>
-            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
-            <remote-alias>SCHOOL</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>GENDER</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[GENDER]</local-name>
-            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
-            <remote-alias>GENDER</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>STATS</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[STATS]</local-name>
-            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
-            <remote-alias>STATS</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>VECTOR</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[VECTOR]</local-name>
-            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
-            <remote-alias>VECTOR</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>COORDINATE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[COORDINATE]</local-name>
-            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
-            <remote-alias>COORDINATE</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>VALUE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[VALUE]</local-name>
-            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
-            <remote-alias>VALUE</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>300</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Coordinate' datatype='string' name='[COORDINATE]' role='dimension' type='nominal'>
-      </column>
-      <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal'>
-      </column>
-      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
-        <calculation class='tableau' formula='1' />
-      </column>
-      <column caption='Ref Date' datatype='string' name='[REF_DATE]' role='dimension' type='nominal'>
-      </column>
-      <column caption='School' datatype='string' name='[SCHOOL]' role='dimension' type='nominal'>
-      </column>
-      <column caption='Stats' datatype='string' name='[STATS]' role='dimension' type='nominal'>
-      </column>
-      <column caption='Value' datatype='integer' datatype-customized='true' name='[VALUE]' role='dimension' type='ordinal'>
-      </column>
-      <column caption='Vector' datatype='string' name='[VECTOR]' role='dimension' type='nominal'>
-      </column>
-      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
     </datasource>
     <datasource caption='GRAD_LOANS (C##CS329E_MAP4542)' inline='true' name='oracle.42135.662048206000' version='9.0'>
       <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_MAP4542' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_map4542'>
@@ -686,28 +349,445 @@
       <column caption='Vector' datatype='string' name='[VECTOR]' role='dimension' type='nominal'>
       </column>
       <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='129.152.144.84' inline='true' name='oracle.42135.659959108800' version='9.0'>
+      <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_MAP4542' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_map4542'>
+        <relation name='GRAD_DEBT' table='[C##CS329E_MAP4542].[GRAD_DEBT]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>REF_DATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REF_DATE]</local-name>
+            <parent-name>[GRAD_DEBT]</parent-name>
+            <remote-alias>REF_DATE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>10</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEO]</local-name>
+            <parent-name>[GRAD_DEBT]</parent-name>
+            <remote-alias>GEO</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>25</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SCHOOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SCHOOL]</local-name>
+            <parent-name>[GRAD_DEBT]</parent-name>
+            <remote-alias>SCHOOL</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOURCE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SOURCE]</local-name>
+            <parent-name>[GRAD_DEBT]</parent-name>
+            <remote-alias>SOURCE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATS]</local-name>
+            <parent-name>[GRAD_DEBT]</parent-name>
+            <remote-alias>STATS</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VECTOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VECTOR]</local-name>
+            <parent-name>[GRAD_DEBT]</parent-name>
+            <remote-alias>VECTOR</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COORDINATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COORDINATE]</local-name>
+            <parent-name>[GRAD_DEBT]</parent-name>
+            <remote-alias>COORDINATE</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VALUE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VALUE]</local-name>
+            <parent-name>[GRAD_DEBT]</parent-name>
+            <remote-alias>VALUE</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Coordinate' datatype='string' name='[COORDINATE]' role='dimension' type='nominal'>
+      </column>
+      <column datatype='string' name='[GEO]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Ref Date' datatype='string' name='[REF_DATE]' role='dimension' type='nominal'>
+      </column>
+      <column caption='School' datatype='string' name='[SCHOOL]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Source' datatype='string' name='[SOURCE]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Stats' datatype='string' name='[STATS]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Value' datatype='integer' datatype-customized='true' name='[VALUE]' role='dimension' type='ordinal'>
+      </column>
+      <column caption='Vector' datatype='string' name='[VECTOR]' role='dimension' type='nominal'>
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='GRAD_EMPLOYMENT (C##CS329E_MAP4542)' inline='true' name='oracle.42135.661039791700' version='9.0'>
+      <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_MAP4542' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_map4542'>
+        <relation name='GRAD_EMPLOYMENT' table='[C##CS329E_MAP4542].[GRAD_EMPLOYMENT]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>REF_DATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REF_DATE]</local-name>
+            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
+            <remote-alias>REF_DATE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEO]</local-name>
+            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
+            <remote-alias>GEO</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SCHOOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SCHOOL]</local-name>
+            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
+            <remote-alias>SCHOOL</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENDER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GENDER]</local-name>
+            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
+            <remote-alias>GENDER</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATS]</local-name>
+            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
+            <remote-alias>STATS</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VECTOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VECTOR]</local-name>
+            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
+            <remote-alias>VECTOR</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COORDINATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COORDINATE]</local-name>
+            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
+            <remote-alias>COORDINATE</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VALUE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VALUE]</local-name>
+            <parent-name>[GRAD_EMPLOYMENT]</parent-name>
+            <remote-alias>VALUE</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>300</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Coordinate' datatype='string' name='[COORDINATE]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal'>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Ref Date' datatype='string' name='[REF_DATE]' role='dimension' type='nominal'>
+      </column>
+      <column caption='School' datatype='string' name='[SCHOOL]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Stats' datatype='string' name='[STATS]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Value' datatype='integer' datatype-customized='true' name='[VALUE]' role='dimension' type='ordinal'>
+      </column>
+      <column caption='Vector' datatype='string' name='[VECTOR]' role='dimension' type='nominal'>
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
     </datasource>
   </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
   <worksheets>
     <worksheet name='Sheet 2'>
       <table>
         <view>
           <datasources>
+            <datasource caption='129.152.144.84' name='oracle.42135.659959108800' />
+            <datasource caption='GRAD_EMPLOYMENT (C##CS329E_MAP4542)' name='oracle.42135.661039791700' />
           </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='oracle.42135.659959108800'>
+            <column datatype='string' name='[GEO]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+            </column>
+            <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='oracle.42135.661039791700'>
+            <column caption='Coordinate' datatype='string' name='[COORDINATE]' role='dimension' type='nominal'>
+            </column>
+            <column caption='Ref Date' datatype='string' name='[REF_DATE]' role='dimension' type='nominal'>
+            </column>
+            <column caption='School' datatype='string' name='[SCHOOL]' role='dimension' type='nominal'>
+            </column>
+            <column caption='Stats' datatype='string' name='[STATS]' role='dimension' type='nominal'>
+            </column>
+            <column caption='Value' datatype='integer' datatype-customized='true' name='[VALUE]' role='dimension' type='ordinal'>
+            </column>
+            <column caption='Vector' datatype='string' name='[VECTOR]' role='dimension' type='nominal'>
+            </column>
+            <column-instance column='[COORDINATE]' derivation='None' name='[none:COORDINATE:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
           <aggregation value='true' />
         </view>
         <style>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
         </style>
         <panes>
           <pane>
             <view>
               <breakdown value='auto' />
             </view>
-            <mark class='Automatic' />
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[oracle.42135.659959108800].[none:GEO:nk]' />
+              <geometry column='[oracle.42135.659959108800].[Geometry (generated)]' />
+            </encodings>
           </pane>
         </panes>
-        <rows></rows>
-        <cols></cols>
+        <rows>[oracle.42135.659959108800].[Latitude (generated)]</rows>
+        <cols>([oracle.42135.661039791700].[none:COORDINATE:nk] * [oracle.42135.659959108800].[Longitude (generated)])</cols>
+        <join-lod-include-overrides>
+          <column>[oracle.42135.661039791700].[COORDINATE]</column>
+          <column>[oracle.42135.661039791700].[REF_DATE]</column>
+          <column>[oracle.42135.661039791700].[SCHOOL]</column>
+          <column>[oracle.42135.661039791700].[STATS]</column>
+          <column>[oracle.42135.661039791700].[VALUE]</column>
+          <column>[oracle.42135.661039791700].[VECTOR]</column>
+        </join-lod-include-overrides>
       </table>
     </worksheet>
   </worksheets>
@@ -731,20 +811,176 @@
           </strip>
         </edge>
       </cards>
+      <highlight>
+        <color-one-way>
+          <field>[oracle.42135.659959108800].[none:GEO:nk]</field>
+          <field>[oracle.42135.661039791700].[none:COORDINATE:nk]</field>
+        </color-one-way>
+      </highlight>
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='144' name='Sheet 2' width='174'>
-      iVBORw0KGgoAAAANSUhEUgAAAK4AAACQCAYAAACRfFAzAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAABmUlEQVR4nO3SQQ0AIBDAMMC/58MDH7KkVbDH9szMgpjzOwBeGJck45JkXJKMS5JxSTIu
-      ScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45Jk
-      XJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYl
-      ybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKM
-      S5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgk
-      GZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5Jx
-      STIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck
-      45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuSRePYgUc7kJNEQAAAABJRU5ErkJg
-      gg==
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
     </thumbnail>
   </thumbnails>
 </workbook>
