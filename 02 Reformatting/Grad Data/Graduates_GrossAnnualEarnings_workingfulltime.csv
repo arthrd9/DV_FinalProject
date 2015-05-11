@@ -1,0 +1,1189 @@
+Ref_Date,GEO,LEVEL,SEX,STATS,Vector,Coordinate,Value
+2000,Canada,College,Both sexes,25th percentile,v88834060,1.1.1.1,24000.00
+2005,Canada,College,Both sexes,25th percentile,v88834060,1.1.1.1,27500.00
+2010,Canada,College,Both sexes,25th percentile,v88834060,1.1.1.1,33200.00
+2000,Canada,College,Both sexes,Median,v88834061,1.1.1.2,31200.00
+2005,Canada,College,Both sexes,Median,v88834061,1.1.1.2,35000.00
+2010,Canada,College,Both sexes,Median,v88834061,1.1.1.2,41600.00
+2000,Canada,College,Both sexes,75th percentile,v88834062,1.1.1.3,40000.00
+2005,Canada,College,Both sexes,75th percentile,v88834062,1.1.1.3,44300.00
+2010,Canada,College,Both sexes,75th percentile,v88834062,1.1.1.3,56000.00
+2000,Canada,College,Males,25th percentile,v88834063,1.1.2.1,27000.00
+2005,Canada,College,Males,25th percentile,v88834063,1.1.2.1,30000.00
+2010,Canada,College,Males,25th percentile,v88834063,1.1.2.1,37200.00
+2000,Canada,College,Males,Median,v88834064,1.1.2.2,35000.00
+2005,Canada,College,Males,Median,v88834064,1.1.2.2,38400.00
+2010,Canada,College,Males,Median,v88834064,1.1.2.2,48000.00
+2000,Canada,College,Males,75th percentile,v88834065,1.1.2.3,44000.00
+2005,Canada,College,Males,75th percentile,v88834065,1.1.2.3,50000.00
+2010,Canada,College,Males,75th percentile,v88834065,1.1.2.3,65000.00
+2000,Canada,College,Females,25th percentile,v88834066,1.1.3.1,22400.00
+2005,Canada,College,Females,25th percentile,v88834066,1.1.3.1,26000.00
+2010,Canada,College,Females,25th percentile,v88834066,1.1.3.1,31200.00
+2000,Canada,College,Females,Median,v88834067,1.1.3.2,28600.00
+2005,Canada,College,Females,Median,v88834067,1.1.3.2,32200.00
+2010,Canada,College,Females,Median,v88834067,1.1.3.2,38900.00
+2000,Canada,College,Females,75th percentile,v88834068,1.1.3.3,35600.00
+2005,Canada,College,Females,75th percentile,v88834068,1.1.3.3,41100.00
+2010,Canada,College,Females,75th percentile,v88834068,1.1.3.3,49400.00
+2000,Canada,Bachelor's,Both sexes,25th percentile,v88834069,1.2.1.1,31000.00
+2005,Canada,Bachelor's,Both sexes,25th percentile,v88834069,1.2.1.1,35900.00
+2010,Canada,Bachelor's,Both sexes,25th percentile,v88834069,1.2.1.1,40800.00
+2000,Canada,Bachelor's,Both sexes,Median,v88834070,1.2.1.2,39000.00
+2005,Canada,Bachelor's,Both sexes,Median,v88834070,1.2.1.2,45000.00
+2010,Canada,Bachelor's,Both sexes,Median,v88834070,1.2.1.2,53000.00
+2000,Canada,Bachelor's,Both sexes,75th percentile,v88834071,1.2.1.3,49000.00
+2005,Canada,Bachelor's,Both sexes,75th percentile,v88834071,1.2.1.3,55000.00
+2010,Canada,Bachelor's,Both sexes,75th percentile,v88834071,1.2.1.3,68600.00
+2000,Canada,Bachelor's,Males,25th percentile,v88834072,1.2.2.1,33600.00
+2005,Canada,Bachelor's,Males,25th percentile,v88834072,1.2.2.1,38500.00
+2010,Canada,Bachelor's,Males,25th percentile,v88834072,1.2.2.1,44000.00
+2000,Canada,Bachelor's,Males,Median,v88834073,1.2.2.2,42000.00
+2005,Canada,Bachelor's,Males,Median,v88834073,1.2.2.2,48000.00
+2010,Canada,Bachelor's,Males,Median,v88834073,1.2.2.2,57000.00
+2000,Canada,Bachelor's,Males,75th percentile,v88834074,1.2.2.3,54000.00
+2005,Canada,Bachelor's,Males,75th percentile,v88834074,1.2.2.3,60000.00
+2010,Canada,Bachelor's,Males,75th percentile,v88834074,1.2.2.3,75000.00
+2000,Canada,Bachelor's,Females,25th percentile,v88834075,1.2.3.1,30000.00
+2005,Canada,Bachelor's,Females,25th percentile,v88834075,1.2.3.1,34000.00
+2010,Canada,Bachelor's,Females,25th percentile,v88834075,1.2.3.1,39000.00
+2000,Canada,Bachelor's,Females,Median,v88834076,1.2.3.2,37000.00
+2005,Canada,Bachelor's,Females,Median,v88834076,1.2.3.2,43000.00
+2010,Canada,Bachelor's,Females,Median,v88834076,1.2.3.2,51000.00
+2000,Canada,Bachelor's,Females,75th percentile,v88834077,1.2.3.3,45000.00
+2005,Canada,Bachelor's,Females,75th percentile,v88834077,1.2.3.3,52000.00
+2010,Canada,Bachelor's,Females,75th percentile,v88834077,1.2.3.3,65000.00
+2000,Canada,Master's,Both sexes,25th percentile,v88834078,1.3.1.1,41000.00
+2005,Canada,Master's,Both sexes,25th percentile,v88834078,1.3.1.1,46800.00
+2010,Canada,Master's,Both sexes,25th percentile,v88834078,1.3.1.1,54000.00
+2000,Canada,Master's,Both sexes,Median,v88834079,1.3.1.2,52000.00
+2005,Canada,Master's,Both sexes,Median,v88834079,1.3.1.2,60000.00
+2010,Canada,Master's,Both sexes,Median,v88834079,1.3.1.2,70000.00
+2000,Canada,Master's,Both sexes,75th percentile,v88834080,1.3.1.3,66000.00
+2005,Canada,Master's,Both sexes,75th percentile,v88834080,1.3.1.3,77900.00
+2010,Canada,Master's,Both sexes,75th percentile,v88834080,1.3.1.3,88000.00
+2000,Canada,Master's,Males,25th percentile,v88834081,1.3.2.1,44200.00
+2005,Canada,Master's,Males,25th percentile,v88834081,1.3.2.1,50000.00
+2010,Canada,Master's,Males,25th percentile,v88834081,1.3.2.1,60000.00
+2000,Canada,Master's,Males,Median,v88834082,1.3.2.2,57000.00
+2005,Canada,Master's,Males,Median,v88834082,1.3.2.2,65000.00
+2010,Canada,Master's,Males,Median,v88834082,1.3.2.2,76400.00
+2000,Canada,Master's,Males,75th percentile,v88834083,1.3.2.3,75000.00
+2005,Canada,Master's,Males,75th percentile,v88834083,1.3.2.3,85000.00
+2010,Canada,Master's,Males,75th percentile,v88834083,1.3.2.3,100000.00
+2000,Canada,Master's,Females,25th percentile,v88834084,1.3.3.1,39000.00
+2005,Canada,Master's,Females,25th percentile,v88834084,1.3.3.1,45000.00
+2010,Canada,Master's,Females,25th percentile,v88834084,1.3.3.1,50700.00
+2000,Canada,Master's,Females,Median,v88834085,1.3.3.2,50000.00
+2005,Canada,Master's,Females,Median,v88834085,1.3.3.2,58000.00
+2010,Canada,Master's,Females,Median,v88834085,1.3.3.2,65000.00
+2000,Canada,Master's,Females,75th percentile,v88834086,1.3.3.3,60000.00
+2005,Canada,Master's,Females,75th percentile,v88834086,1.3.3.3,72000.00
+2010,Canada,Master's,Females,75th percentile,v88834086,1.3.3.3,81000.00
+2000,Canada,Doctorate,Both sexes,25th percentile,v88834087,1.4.1.1,43500.00
+2005,Canada,Doctorate,Both sexes,25th percentile,v88834087,1.4.1.1,48000.00
+2010,Canada,Doctorate,Both sexes,25th percentile,v88834087,1.4.1.1,57000.00
+2000,Canada,Doctorate,Both sexes,Median,v88834088,1.4.1.2,56100.00
+2005,Canada,Doctorate,Both sexes,Median,v88834088,1.4.1.2,65000.00
+2010,Canada,Doctorate,Both sexes,Median,v88834088,1.4.1.2,75000.00
+2000,Canada,Doctorate,Both sexes,75th percentile,v88834089,1.4.1.3,71500.00
+2005,Canada,Doctorate,Both sexes,75th percentile,v88834089,1.4.1.3,78000.00
+2010,Canada,Doctorate,Both sexes,75th percentile,v88834089,1.4.1.3,96000.00
+2000,Canada,Doctorate,Males,25th percentile,v88834090,1.4.2.1,45000.00
+2005,Canada,Doctorate,Males,25th percentile,v88834090,1.4.2.1,47000.00
+2010,Canada,Doctorate,Males,25th percentile,v88834090,1.4.2.1,56000.00
+2000,Canada,Doctorate,Males,Median,v88834091,1.4.2.2,57800.00
+2005,Canada,Doctorate,Males,Median,v88834091,1.4.2.2,65000.00
+2010,Canada,Doctorate,Males,Median,v88834091,1.4.2.2,76000.00
+2000,Canada,Doctorate,Males,75th percentile,v88834092,1.4.2.3,73000.00
+2005,Canada,Doctorate,Males,75th percentile,v88834092,1.4.2.3,80000.00
+2010,Canada,Doctorate,Males,75th percentile,v88834092,1.4.2.3,99000.00
+2000,Canada,Doctorate,Females,25th percentile,v88834093,1.4.3.1,42000.00
+2005,Canada,Doctorate,Females,25th percentile,v88834093,1.4.3.1,49400.00
+2010,Canada,Doctorate,Females,25th percentile,v88834093,1.4.3.1,58200.00
+2000,Canada,Doctorate,Females,Median,v88834094,1.4.3.2,55000.00
+2005,Canada,Doctorate,Females,Median,v88834094,1.4.3.2,63000.00
+2010,Canada,Doctorate,Females,Median,v88834094,1.4.3.2,74200.00
+2000,Canada,Doctorate,Females,75th percentile,v88834095,1.4.3.3,68000.00
+2005,Canada,Doctorate,Females,75th percentile,v88834095,1.4.3.3,77400.00
+2010,Canada,Doctorate,Females,75th percentile,v88834095,1.4.3.3,95000.00
+2000,Newfoundland and Labrador,College,Both sexes,25th percentile,v88834096,2.1.1.1,20800.00
+2005,Newfoundland and Labrador,College,Both sexes,25th percentile,v88834096,2.1.1.1,23200.00
+2010,Newfoundland and Labrador,College,Both sexes,25th percentile,v88834096,2.1.1.1,38800.00
+2000,Newfoundland and Labrador,College,Both sexes,Median,v88834097,2.1.1.2,28800.00
+2005,Newfoundland and Labrador,College,Both sexes,Median,v88834097,2.1.1.2,33600.00
+2010,Newfoundland and Labrador,College,Both sexes,Median,v88834097,2.1.1.2,52000.00
+2000,Newfoundland and Labrador,College,Both sexes,75th percentile,v88834098,2.1.1.3,39000.00
+2005,Newfoundland and Labrador,College,Both sexes,75th percentile,v88834098,2.1.1.3,49800.00
+2010,Newfoundland and Labrador,College,Both sexes,75th percentile,v88834098,2.1.1.3,74300.00
+2000,Newfoundland and Labrador,College,Males,25th percentile,v88834099,2.1.2.1,26700.00
+2005,Newfoundland and Labrador,College,Males,25th percentile,v88834099,2.1.2.1,31700.00
+2010,Newfoundland and Labrador,College,Males,25th percentile,v88834099,2.1.2.1,45000.00
+2000,Newfoundland and Labrador,College,Males,Median,v88834100,2.1.2.2,35000.00
+2005,Newfoundland and Labrador,College,Males,Median,v88834100,2.1.2.2,45000.00
+2010,Newfoundland and Labrador,College,Males,Median,v88834100,2.1.2.2,59800.00
+2000,Newfoundland and Labrador,College,Males,75th percentile,v88834101,2.1.2.3,44200.00
+2005,Newfoundland and Labrador,College,Males,75th percentile,v88834101,2.1.2.3,60000.00
+2010,Newfoundland and Labrador,College,Males,75th percentile,v88834101,2.1.2.3,78100.00
+2000,Newfoundland and Labrador,College,Females,25th percentile,v88834102,2.1.3.1,16600.00
+2005,Newfoundland and Labrador,College,Females,25th percentile,v88834102,2.1.3.1,20800.00
+2010,Newfoundland and Labrador,College,Females,25th percentile,v88834102,2.1.3.1,33600.00
+2000,Newfoundland and Labrador,College,Females,Median,v88834103,2.1.3.2,23400.00
+2005,Newfoundland and Labrador,College,Females,Median,v88834103,2.1.3.2,30400.00
+2010,Newfoundland and Labrador,College,Females,Median,v88834103,2.1.3.2,43200.00
+2000,Newfoundland and Labrador,College,Females,75th percentile,v88834104,2.1.3.3,29100.00
+2005,Newfoundland and Labrador,College,Females,75th percentile,v88834104,2.1.3.3,40000.00
+2010,Newfoundland and Labrador,College,Females,75th percentile,v88834104,2.1.3.3,54000.00
+2000,Newfoundland and Labrador,Bachelor's,Both sexes,25th percentile,v88834105,2.2.1.1,31200.00
+2005,Newfoundland and Labrador,Bachelor's,Both sexes,25th percentile,v88834105,2.2.1.1,36000.00
+2010,Newfoundland and Labrador,Bachelor's,Both sexes,25th percentile,v88834105,2.2.1.1,49900.00
+2000,Newfoundland and Labrador,Bachelor's,Both sexes,Median,v88834106,2.2.1.2,39000.00
+2005,Newfoundland and Labrador,Bachelor's,Both sexes,Median,v88834106,2.2.1.2,45000.00
+2010,Newfoundland and Labrador,Bachelor's,Both sexes,Median,v88834106,2.2.1.2,67000.00
+2000,Newfoundland and Labrador,Bachelor's,Both sexes,75th percentile,v88834107,2.2.1.3,46000.00
+2005,Newfoundland and Labrador,Bachelor's,Both sexes,75th percentile,v88834107,2.2.1.3,55000.00
+2010,Newfoundland and Labrador,Bachelor's,Both sexes,75th percentile,v88834107,2.2.1.3,75000.00
+2000,Newfoundland and Labrador,Bachelor's,Males,25th percentile,v88834108,2.2.2.1,30000.00
+2005,Newfoundland and Labrador,Bachelor's,Males,25th percentile,v88834108,2.2.2.1,36400.00
+2010,Newfoundland and Labrador,Bachelor's,Males,25th percentile,v88834108,2.2.2.1,52000.00
+2000,Newfoundland and Labrador,Bachelor's,Males,Median,v88834109,2.2.2.2,39000.00
+2005,Newfoundland and Labrador,Bachelor's,Males,Median,v88834109,2.2.2.2,45100.00
+2010,Newfoundland and Labrador,Bachelor's,Males,Median,v88834109,2.2.2.2,70000.00
+2000,Newfoundland and Labrador,Bachelor's,Males,75th percentile,v88834110,2.2.2.3,51000.00
+2005,Newfoundland and Labrador,Bachelor's,Males,75th percentile,v88834110,2.2.2.3,60300.00
+2010,Newfoundland and Labrador,Bachelor's,Males,75th percentile,v88834110,2.2.2.3,88000.00
+2000,Newfoundland and Labrador,Bachelor's,Females,25th percentile,v88834111,2.2.3.1,31200.00
+2005,Newfoundland and Labrador,Bachelor's,Females,25th percentile,v88834111,2.2.3.1,35000.00
+2010,Newfoundland and Labrador,Bachelor's,Females,25th percentile,v88834111,2.2.3.1,49000.00
+2000,Newfoundland and Labrador,Bachelor's,Females,Median,v88834112,2.2.3.2,38500.00
+2005,Newfoundland and Labrador,Bachelor's,Females,Median,v88834112,2.2.3.2,45000.00
+2010,Newfoundland and Labrador,Bachelor's,Females,Median,v88834112,2.2.3.2,65000.00
+2000,Newfoundland and Labrador,Bachelor's,Females,75th percentile,v88834113,2.2.3.3,44000.00
+2005,Newfoundland and Labrador,Bachelor's,Females,75th percentile,v88834113,2.2.3.3,53000.00
+2010,Newfoundland and Labrador,Bachelor's,Females,75th percentile,v88834113,2.2.3.3,72000.00
+2000,Newfoundland and Labrador,Master's,Both sexes,25th percentile,v88834114,2.3.1.1,40000.00
+2005,Newfoundland and Labrador,Master's,Both sexes,25th percentile,v88834114,2.3.1.1,49400.00
+2010,Newfoundland and Labrador,Master's,Both sexes,25th percentile,v88834114,2.3.1.1,60000.00
+2000,Newfoundland and Labrador,Master's,Both sexes,Median,v88834115,2.3.1.2,50000.00
+2005,Newfoundland and Labrador,Master's,Both sexes,Median,v88834115,2.3.1.2,62000.00
+2010,Newfoundland and Labrador,Master's,Both sexes,Median,v88834115,2.3.1.2,78000.00
+2000,Newfoundland and Labrador,Master's,Both sexes,75th percentile,v88834116,2.3.1.3,59000.00
+2005,Newfoundland and Labrador,Master's,Both sexes,75th percentile,v88834116,2.3.1.3,71000.00
+2010,Newfoundland and Labrador,Master's,Both sexes,75th percentile,v88834116,2.3.1.3,89000.00
+2000,Newfoundland and Labrador,Master's,Males,25th percentile,v88834117,2.3.2.1,44000.00
+2005,Newfoundland and Labrador,Master's,Males,25th percentile,v88834117,2.3.2.1,50700.00
+2010,Newfoundland and Labrador,Master's,Males,25th percentile,v88834117,2.3.2.1,68900.00
+2000,Newfoundland and Labrador,Master's,Males,Median,v88834118,2.3.2.2,50000.00
+2005,Newfoundland and Labrador,Master's,Males,Median,v88834118,2.3.2.2,66000.00
+2010,Newfoundland and Labrador,Master's,Males,Median,v88834118,2.3.2.2,85000.00
+2000,Newfoundland and Labrador,Master's,Males,75th percentile,v88834119,2.3.2.3,65000.00
+2005,Newfoundland and Labrador,Master's,Males,75th percentile,v88834119,2.3.2.3,72000.00
+2010,Newfoundland and Labrador,Master's,Males,75th percentile,v88834119,2.3.2.3,93000.00
+2000,Newfoundland and Labrador,Master's,Females,25th percentile,v88834120,2.3.3.1,36000.00
+2005,Newfoundland and Labrador,Master's,Females,25th percentile,v88834120,2.3.3.1,48300.00
+2010,Newfoundland and Labrador,Master's,Females,25th percentile,v88834120,2.3.3.1,52000.00
+2000,Newfoundland and Labrador,Master's,Females,Median,v88834121,2.3.3.2,48000.00
+2005,Newfoundland and Labrador,Master's,Females,Median,v88834121,2.3.3.2,60000.00
+2010,Newfoundland and Labrador,Master's,Females,Median,v88834121,2.3.3.2,76800.00
+2000,Newfoundland and Labrador,Master's,Females,75th percentile,v88834122,2.3.3.3,57300.00
+2005,Newfoundland and Labrador,Master's,Females,75th percentile,v88834122,2.3.3.3,70000.00
+2010,Newfoundland and Labrador,Master's,Females,75th percentile,v88834122,2.3.3.3,86000.00
+2000,Newfoundland and Labrador,Doctorate,Both sexes,25th percentile,v88834123,2.4.1.1,x
+2005,Newfoundland and Labrador,Doctorate,Both sexes,25th percentile,v88834123,2.4.1.1,x
+2010,Newfoundland and Labrador,Doctorate,Both sexes,25th percentile,v88834123,2.4.1.1,x
+2000,Newfoundland and Labrador,Doctorate,Both sexes,Median,v88834124,2.4.1.2,x
+2005,Newfoundland and Labrador,Doctorate,Both sexes,Median,v88834124,2.4.1.2,x
+2010,Newfoundland and Labrador,Doctorate,Both sexes,Median,v88834124,2.4.1.2,72000.00
+2000,Newfoundland and Labrador,Doctorate,Both sexes,75th percentile,v88834125,2.4.1.3,x
+2005,Newfoundland and Labrador,Doctorate,Both sexes,75th percentile,v88834125,2.4.1.3,x
+2010,Newfoundland and Labrador,Doctorate,Both sexes,75th percentile,v88834125,2.4.1.3,x
+2000,Newfoundland and Labrador,Doctorate,Males,25th percentile,v88834126,2.4.2.1,x
+2005,Newfoundland and Labrador,Doctorate,Males,25th percentile,v88834126,2.4.2.1,x
+2010,Newfoundland and Labrador,Doctorate,Males,25th percentile,v88834126,2.4.2.1,x
+2000,Newfoundland and Labrador,Doctorate,Males,Median,v88834127,2.4.2.2,x
+2005,Newfoundland and Labrador,Doctorate,Males,Median,v88834127,2.4.2.2,x
+2010,Newfoundland and Labrador,Doctorate,Males,Median,v88834127,2.4.2.2,x
+2000,Newfoundland and Labrador,Doctorate,Males,75th percentile,v88834128,2.4.2.3,x
+2005,Newfoundland and Labrador,Doctorate,Males,75th percentile,v88834128,2.4.2.3,x
+2010,Newfoundland and Labrador,Doctorate,Males,75th percentile,v88834128,2.4.2.3,x
+2000,Newfoundland and Labrador,Doctorate,Females,25th percentile,v88834129,2.4.3.1,x
+2005,Newfoundland and Labrador,Doctorate,Females,25th percentile,v88834129,2.4.3.1,x
+2010,Newfoundland and Labrador,Doctorate,Females,25th percentile,v88834129,2.4.3.1,x
+2000,Newfoundland and Labrador,Doctorate,Females,Median,v88834130,2.4.3.2,x
+2005,Newfoundland and Labrador,Doctorate,Females,Median,v88834130,2.4.3.2,x
+2010,Newfoundland and Labrador,Doctorate,Females,Median,v88834130,2.4.3.2,x
+2000,Newfoundland and Labrador,Doctorate,Females,75th percentile,v88834131,2.4.3.3,x
+2005,Newfoundland and Labrador,Doctorate,Females,75th percentile,v88834131,2.4.3.3,x
+2010,Newfoundland and Labrador,Doctorate,Females,75th percentile,v88834131,2.4.3.3,x
+2000,Prince Edward Island,College,Both sexes,25th percentile,v88834132,3.1.1.1,20800.00
+2005,Prince Edward Island,College,Both sexes,25th percentile,v88834132,3.1.1.1,25000.00
+2010,Prince Edward Island,College,Both sexes,25th percentile,v88834132,3.1.1.1,30200.00
+2000,Prince Edward Island,College,Both sexes,Median,v88834133,3.1.1.2,26000.00
+2005,Prince Edward Island,College,Both sexes,Median,v88834133,3.1.1.2,31600.00
+2010,Prince Edward Island,College,Both sexes,Median,v88834133,3.1.1.2,39300.00
+2000,Prince Edward Island,College,Both sexes,75th percentile,v88834134,3.1.1.3,34300.00
+2005,Prince Edward Island,College,Both sexes,75th percentile,v88834134,3.1.1.3,40900.00
+2010,Prince Edward Island,College,Both sexes,75th percentile,v88834134,3.1.1.3,53600.00
+2000,Prince Edward Island,College,Males,25th percentile,v88834135,3.1.2.1,23600.00
+2005,Prince Edward Island,College,Males,25th percentile,v88834135,3.1.2.1,29100.00
+2010,Prince Edward Island,College,Males,25th percentile,v88834135,3.1.2.1,32800.00
+2000,Prince Edward Island,College,Males,Median,v88834136,3.1.2.2,31200.00
+2005,Prince Edward Island,College,Males,Median,v88834136,3.1.2.2,35400.00
+2010,Prince Edward Island,College,Males,Median,v88834136,3.1.2.2,40100.00
+2000,Prince Edward Island,College,Males,75th percentile,v88834137,3.1.2.3,39000.00
+2005,Prince Edward Island,College,Males,75th percentile,v88834137,3.1.2.3,45600.00
+2010,Prince Edward Island,College,Males,75th percentile,v88834137,3.1.2.3,56000.00
+2000,Prince Edward Island,College,Females,25th percentile,v88834138,3.1.3.1,18700.00
+2005,Prince Edward Island,College,Females,25th percentile,v88834138,3.1.3.1,22000.00
+2010,Prince Edward Island,College,Females,25th percentile,v88834138,3.1.3.1,28100.00
+2000,Prince Edward Island,College,Females,Median,v88834139,3.1.3.2,22500.00
+2005,Prince Edward Island,College,Females,Median,v88834139,3.1.3.2,27000.00
+2010,Prince Edward Island,College,Females,Median,v88834139,3.1.3.2,36300.00
+2000,Prince Edward Island,College,Females,75th percentile,v88834140,3.1.3.3,30000.00
+2005,Prince Edward Island,College,Females,75th percentile,v88834140,3.1.3.3,35100.00
+2010,Prince Edward Island,College,Females,75th percentile,v88834140,3.1.3.3,44200.00
+2000,Prince Edward Island,Bachelor's,Both sexes,25th percentile,v88834141,3.2.1.1,25000.00
+2005,Prince Edward Island,Bachelor's,Both sexes,25th percentile,v88834141,3.2.1.1,29500.00
+2010,Prince Edward Island,Bachelor's,Both sexes,25th percentile,v88834141,3.2.1.1,35000.00
+2000,Prince Edward Island,Bachelor's,Both sexes,Median,v88834142,3.2.1.2,32500.00
+2005,Prince Edward Island,Bachelor's,Both sexes,Median,v88834142,3.2.1.2,40000.00
+2010,Prince Edward Island,Bachelor's,Both sexes,Median,v88834142,3.2.1.2,50000.00
+2000,Prince Edward Island,Bachelor's,Both sexes,75th percentile,v88834143,3.2.1.3,42900.00
+2005,Prince Edward Island,Bachelor's,Both sexes,75th percentile,v88834143,3.2.1.3,50000.00
+2010,Prince Edward Island,Bachelor's,Both sexes,75th percentile,v88834143,3.2.1.3,67600.00
+2000,Prince Edward Island,Bachelor's,Males,25th percentile,v88834144,3.2.2.1,26000.00
+2005,Prince Edward Island,Bachelor's,Males,25th percentile,v88834144,3.2.2.1,27300.00
+2010,Prince Edward Island,Bachelor's,Males,25th percentile,v88834144,3.2.2.1,36500.00
+2000,Prince Edward Island,Bachelor's,Males,Median,v88834145,3.2.2.2,33600.00
+2005,Prince Edward Island,Bachelor's,Males,Median,v88834145,3.2.2.2,39000.00
+2010,Prince Edward Island,Bachelor's,Males,Median,v88834145,3.2.2.2,50000.00
+2000,Prince Edward Island,Bachelor's,Males,75th percentile,v88834146,3.2.2.3,47400.00
+2005,Prince Edward Island,Bachelor's,Males,75th percentile,v88834146,3.2.2.3,45000.00
+2010,Prince Edward Island,Bachelor's,Males,75th percentile,v88834146,3.2.2.3,72000.00
+2000,Prince Edward Island,Bachelor's,Females,25th percentile,v88834147,3.2.3.1,22000.00
+2005,Prince Edward Island,Bachelor's,Females,25th percentile,v88834147,3.2.3.1,30000.00
+2010,Prince Edward Island,Bachelor's,Females,25th percentile,v88834147,3.2.3.1,31200.00
+2000,Prince Edward Island,Bachelor's,Females,Median,v88834148,3.2.3.2,32000.00
+2005,Prince Edward Island,Bachelor's,Females,Median,v88834148,3.2.3.2,40000.00
+2010,Prince Edward Island,Bachelor's,Females,Median,v88834148,3.2.3.2,50000.00
+2000,Prince Edward Island,Bachelor's,Females,75th percentile,v88834149,3.2.3.3,40500.00
+2005,Prince Edward Island,Bachelor's,Females,75th percentile,v88834149,3.2.3.3,51700.00
+2010,Prince Edward Island,Bachelor's,Females,75th percentile,v88834149,3.2.3.3,63000.00
+2000,Prince Edward Island,Master's,Both sexes,25th percentile,v88834150,3.3.1.1,x
+2005,Prince Edward Island,Master's,Both sexes,25th percentile,v88834150,3.3.1.1,x
+2010,Prince Edward Island,Master's,Both sexes,25th percentile,v88834150,3.3.1.1,x
+2000,Prince Edward Island,Master's,Both sexes,Median,v88834151,3.3.1.2,x
+2005,Prince Edward Island,Master's,Both sexes,Median,v88834151,3.3.1.2,65000.00
+2010,Prince Edward Island,Master's,Both sexes,Median,v88834151,3.3.1.2,78000.00
+2000,Prince Edward Island,Master's,Both sexes,75th percentile,v88834152,3.3.1.3,x
+2005,Prince Edward Island,Master's,Both sexes,75th percentile,v88834152,3.3.1.3,x
+2010,Prince Edward Island,Master's,Both sexes,75th percentile,v88834152,3.3.1.3,x
+2000,Prince Edward Island,Master's,Males,25th percentile,v88834153,3.3.2.1,..
+2005,Prince Edward Island,Master's,Males,25th percentile,v88834153,3.3.2.1,x
+2010,Prince Edward Island,Master's,Males,25th percentile,v88834153,3.3.2.1,x
+2000,Prince Edward Island,Master's,Males,Median,v88834154,3.3.2.2,..
+2005,Prince Edward Island,Master's,Males,Median,v88834154,3.3.2.2,x
+2010,Prince Edward Island,Master's,Males,Median,v88834154,3.3.2.2,x
+2000,Prince Edward Island,Master's,Males,75th percentile,v88834155,3.3.2.3,..
+2005,Prince Edward Island,Master's,Males,75th percentile,v88834155,3.3.2.3,x
+2010,Prince Edward Island,Master's,Males,75th percentile,v88834155,3.3.2.3,x
+2000,Prince Edward Island,Master's,Females,25th percentile,v88834156,3.3.3.1,x
+2005,Prince Edward Island,Master's,Females,25th percentile,v88834156,3.3.3.1,x
+2010,Prince Edward Island,Master's,Females,25th percentile,v88834156,3.3.3.1,x
+2000,Prince Edward Island,Master's,Females,Median,v88834157,3.3.3.2,x
+2005,Prince Edward Island,Master's,Females,Median,v88834157,3.3.3.2,59000.00
+2010,Prince Edward Island,Master's,Females,Median,v88834157,3.3.3.2,79000.00
+2000,Prince Edward Island,Master's,Females,75th percentile,v88834158,3.3.3.3,x
+2005,Prince Edward Island,Master's,Females,75th percentile,v88834158,3.3.3.3,x
+2010,Prince Edward Island,Master's,Females,75th percentile,v88834158,3.3.3.3,x
+2000,Prince Edward Island,Doctorate,Both sexes,25th percentile,v88834159,3.4.1.1,x
+2005,Prince Edward Island,Doctorate,Both sexes,25th percentile,v88834159,3.4.1.1,x
+2010,Prince Edward Island,Doctorate,Both sexes,25th percentile,v88834159,3.4.1.1,x
+2000,Prince Edward Island,Doctorate,Both sexes,Median,v88834160,3.4.1.2,x
+2005,Prince Edward Island,Doctorate,Both sexes,Median,v88834160,3.4.1.2,x
+2010,Prince Edward Island,Doctorate,Both sexes,Median,v88834160,3.4.1.2,x
+2000,Prince Edward Island,Doctorate,Both sexes,75th percentile,v88834161,3.4.1.3,x
+2005,Prince Edward Island,Doctorate,Both sexes,75th percentile,v88834161,3.4.1.3,x
+2010,Prince Edward Island,Doctorate,Both sexes,75th percentile,v88834161,3.4.1.3,x
+2000,Prince Edward Island,Doctorate,Males,25th percentile,v88834162,3.4.2.1,x
+2005,Prince Edward Island,Doctorate,Males,25th percentile,v88834162,3.4.2.1,x
+2010,Prince Edward Island,Doctorate,Males,25th percentile,v88834162,3.4.2.1,x
+2000,Prince Edward Island,Doctorate,Males,Median,v88834163,3.4.2.2,x
+2005,Prince Edward Island,Doctorate,Males,Median,v88834163,3.4.2.2,x
+2010,Prince Edward Island,Doctorate,Males,Median,v88834163,3.4.2.2,x
+2000,Prince Edward Island,Doctorate,Males,75th percentile,v88834164,3.4.2.3,x
+2005,Prince Edward Island,Doctorate,Males,75th percentile,v88834164,3.4.2.3,x
+2010,Prince Edward Island,Doctorate,Males,75th percentile,v88834164,3.4.2.3,x
+2000,Prince Edward Island,Doctorate,Females,25th percentile,v88834165,3.4.3.1,x
+2005,Prince Edward Island,Doctorate,Females,25th percentile,v88834165,3.4.3.1,..
+2010,Prince Edward Island,Doctorate,Females,25th percentile,v88834165,3.4.3.1,x
+2000,Prince Edward Island,Doctorate,Females,Median,v88834166,3.4.3.2,x
+2005,Prince Edward Island,Doctorate,Females,Median,v88834166,3.4.3.2,..
+2010,Prince Edward Island,Doctorate,Females,Median,v88834166,3.4.3.2,x
+2000,Prince Edward Island,Doctorate,Females,75th percentile,v88834167,3.4.3.3,x
+2005,Prince Edward Island,Doctorate,Females,75th percentile,v88834167,3.4.3.3,..
+2010,Prince Edward Island,Doctorate,Females,75th percentile,v88834167,3.4.3.3,x
+2000,Nova Scotia,College,Both sexes,25th percentile,v88834168,4.1.1.1,18700.00
+2005,Nova Scotia,College,Both sexes,25th percentile,v88834168,4.1.1.1,23400.00
+2010,Nova Scotia,College,Both sexes,25th percentile,v88834168,4.1.1.1,29100.00
+2000,Nova Scotia,College,Both sexes,Median,v88834169,4.1.1.2,24000.00
+2005,Nova Scotia,College,Both sexes,Median,v88834169,4.1.1.2,30700.00
+2010,Nova Scotia,College,Both sexes,Median,v88834169,4.1.1.2,37000.00
+2000,Nova Scotia,College,Both sexes,75th percentile,v88834170,4.1.1.3,31700.00
+2005,Nova Scotia,College,Both sexes,75th percentile,v88834170,4.1.1.3,37500.00
+2010,Nova Scotia,College,Both sexes,75th percentile,v88834170,4.1.1.3,47800.00
+2000,Nova Scotia,College,Males,25th percentile,v88834171,4.1.2.1,21800.00
+2005,Nova Scotia,College,Males,25th percentile,v88834171,4.1.2.1,26000.00
+2010,Nova Scotia,College,Males,25th percentile,v88834171,4.1.2.1,33800.00
+2000,Nova Scotia,College,Males,Median,v88834172,4.1.2.2,29100.00
+2005,Nova Scotia,College,Males,Median,v88834172,4.1.2.2,32800.00
+2010,Nova Scotia,College,Males,Median,v88834172,4.1.2.2,41600.00
+2000,Nova Scotia,College,Males,75th percentile,v88834173,4.1.2.3,36700.00
+2005,Nova Scotia,College,Males,75th percentile,v88834173,4.1.2.3,44200.00
+2010,Nova Scotia,College,Males,75th percentile,v88834173,4.1.2.3,57200.00
+2000,Nova Scotia,College,Females,25th percentile,v88834174,4.1.3.1,17200.00
+2005,Nova Scotia,College,Females,25th percentile,v88834174,4.1.3.1,21100.00
+2010,Nova Scotia,College,Females,25th percentile,v88834174,4.1.3.1,27000.00
+2000,Nova Scotia,College,Females,Median,v88834175,4.1.3.2,21200.00
+2005,Nova Scotia,College,Females,Median,v88834175,4.1.3.2,27200.00
+2010,Nova Scotia,College,Females,Median,v88834175,4.1.3.2,34000.00
+2000,Nova Scotia,College,Females,75th percentile,v88834176,4.1.3.3,26000.00
+2005,Nova Scotia,College,Females,75th percentile,v88834176,4.1.3.3,32100.00
+2010,Nova Scotia,College,Females,75th percentile,v88834176,4.1.3.3,42100.00
+2000,Nova Scotia,Bachelor's,Both sexes,25th percentile,v88834177,4.2.1.1,26000.00
+2005,Nova Scotia,Bachelor's,Both sexes,25th percentile,v88834177,4.2.1.1,30000.00
+2010,Nova Scotia,Bachelor's,Both sexes,25th percentile,v88834177,4.2.1.1,38000.00
+2000,Nova Scotia,Bachelor's,Both sexes,Median,v88834178,4.2.1.2,37300.00
+2005,Nova Scotia,Bachelor's,Both sexes,Median,v88834178,4.2.1.2,40000.00
+2010,Nova Scotia,Bachelor's,Both sexes,Median,v88834178,4.2.1.2,52000.00
+2000,Nova Scotia,Bachelor's,Both sexes,75th percentile,v88834179,4.2.1.3,49200.00
+2005,Nova Scotia,Bachelor's,Both sexes,75th percentile,v88834179,4.2.1.3,55000.00
+2010,Nova Scotia,Bachelor's,Both sexes,75th percentile,v88834179,4.2.1.3,70000.00
+2000,Nova Scotia,Bachelor's,Males,25th percentile,v88834180,4.2.2.1,30000.00
+2005,Nova Scotia,Bachelor's,Males,25th percentile,v88834180,4.2.2.1,31200.00
+2010,Nova Scotia,Bachelor's,Males,25th percentile,v88834180,4.2.2.1,38500.00
+2000,Nova Scotia,Bachelor's,Males,Median,v88834181,4.2.2.2,40000.00
+2005,Nova Scotia,Bachelor's,Males,Median,v88834181,4.2.2.2,42000.00
+2010,Nova Scotia,Bachelor's,Males,Median,v88834181,4.2.2.2,54600.00
+2000,Nova Scotia,Bachelor's,Males,75th percentile,v88834182,4.2.2.3,55000.00
+2005,Nova Scotia,Bachelor's,Males,75th percentile,v88834182,4.2.2.3,55000.00
+2010,Nova Scotia,Bachelor's,Males,75th percentile,v88834182,4.2.2.3,72000.00
+2000,Nova Scotia,Bachelor's,Females,25th percentile,v88834183,4.2.3.1,23500.00
+2005,Nova Scotia,Bachelor's,Females,25th percentile,v88834183,4.2.3.1,27500.00
+2010,Nova Scotia,Bachelor's,Females,25th percentile,v88834183,4.2.3.1,38000.00
+2000,Nova Scotia,Bachelor's,Females,Median,v88834184,4.2.3.2,34500.00
+2005,Nova Scotia,Bachelor's,Females,Median,v88834184,4.2.3.2,38000.00
+2010,Nova Scotia,Bachelor's,Females,Median,v88834184,4.2.3.2,48500.00
+2000,Nova Scotia,Bachelor's,Females,75th percentile,v88834185,4.2.3.3,46200.00
+2005,Nova Scotia,Bachelor's,Females,75th percentile,v88834185,4.2.3.3,53400.00
+2010,Nova Scotia,Bachelor's,Females,75th percentile,v88834185,4.2.3.3,69400.00
+2000,Nova Scotia,Master's,Both sexes,25th percentile,v88834186,4.3.1.1,40000.00
+2005,Nova Scotia,Master's,Both sexes,25th percentile,v88834186,4.3.1.1,51000.00
+2010,Nova Scotia,Master's,Both sexes,25th percentile,v88834186,4.3.1.1,54300.00
+2000,Nova Scotia,Master's,Both sexes,Median,v88834187,4.3.1.2,52000.00
+2005,Nova Scotia,Master's,Both sexes,Median,v88834187,4.3.1.2,63000.00
+2010,Nova Scotia,Master's,Both sexes,Median,v88834187,4.3.1.2,70000.00
+2000,Nova Scotia,Master's,Both sexes,75th percentile,v88834188,4.3.1.3,61000.00
+2005,Nova Scotia,Master's,Both sexes,75th percentile,v88834188,4.3.1.3,75000.00
+2010,Nova Scotia,Master's,Both sexes,75th percentile,v88834188,4.3.1.3,82600.00
+2000,Nova Scotia,Master's,Males,25th percentile,v88834189,4.3.2.1,41000.00
+2005,Nova Scotia,Master's,Males,25th percentile,v88834189,4.3.2.1,50000.00
+2010,Nova Scotia,Master's,Males,25th percentile,v88834189,4.3.2.1,52000.00
+2000,Nova Scotia,Master's,Males,Median,v88834190,4.3.2.2,53000.00
+2005,Nova Scotia,Master's,Males,Median,v88834190,4.3.2.2,65000.00
+2010,Nova Scotia,Master's,Males,Median,v88834190,4.3.2.2,70000.00
+2000,Nova Scotia,Master's,Males,75th percentile,v88834191,4.3.2.3,62400.00
+2005,Nova Scotia,Master's,Males,75th percentile,v88834191,4.3.2.3,83000.00
+2010,Nova Scotia,Master's,Males,75th percentile,v88834191,4.3.2.3,85000.00
+2000,Nova Scotia,Master's,Females,25th percentile,v88834192,4.3.3.1,40000.00
+2005,Nova Scotia,Master's,Females,25th percentile,v88834192,4.3.3.1,51900.00
+2010,Nova Scotia,Master's,Females,25th percentile,v88834192,4.3.3.1,55000.00
+2000,Nova Scotia,Master's,Females,Median,v88834193,4.3.3.2,50800.00
+2005,Nova Scotia,Master's,Females,Median,v88834193,4.3.3.2,62000.00
+2010,Nova Scotia,Master's,Females,Median,v88834193,4.3.3.2,70000.00
+2000,Nova Scotia,Master's,Females,75th percentile,v88834194,4.3.3.3,60000.00
+2005,Nova Scotia,Master's,Females,75th percentile,v88834194,4.3.3.3,70000.00
+2010,Nova Scotia,Master's,Females,75th percentile,v88834194,4.3.3.3,81000.00
+2000,Nova Scotia,Doctorate,Both sexes,25th percentile,v88834195,4.4.1.1,36000.00
+2005,Nova Scotia,Doctorate,Both sexes,25th percentile,v88834195,4.4.1.1,46000.00
+2010,Nova Scotia,Doctorate,Both sexes,25th percentile,v88834195,4.4.1.1,54000.00
+2000,Nova Scotia,Doctorate,Both sexes,Median,v88834196,4.4.1.2,52000.00
+2005,Nova Scotia,Doctorate,Both sexes,Median,v88834196,4.4.1.2,57500.00
+2010,Nova Scotia,Doctorate,Both sexes,Median,v88834196,4.4.1.2,76000.00
+2000,Nova Scotia,Doctorate,Both sexes,75th percentile,v88834197,4.4.1.3,62000.00
+2005,Nova Scotia,Doctorate,Both sexes,75th percentile,v88834197,4.4.1.3,70000.00
+2010,Nova Scotia,Doctorate,Both sexes,75th percentile,v88834197,4.4.1.3,98000.00
+2000,Nova Scotia,Doctorate,Males,25th percentile,v88834198,4.4.2.1,x
+2005,Nova Scotia,Doctorate,Males,25th percentile,v88834198,4.4.2.1,x
+2010,Nova Scotia,Doctorate,Males,25th percentile,v88834198,4.4.2.1,x
+2000,Nova Scotia,Doctorate,Males,Median,v88834199,4.4.2.2,52000.00
+2005,Nova Scotia,Doctorate,Males,Median,v88834199,4.4.2.2,57200.00
+2010,Nova Scotia,Doctorate,Males,Median,v88834199,4.4.2.2,72000.00
+2000,Nova Scotia,Doctorate,Males,75th percentile,v88834200,4.4.2.3,x
+2005,Nova Scotia,Doctorate,Males,75th percentile,v88834200,4.4.2.3,x
+2010,Nova Scotia,Doctorate,Males,75th percentile,v88834200,4.4.2.3,x
+2000,Nova Scotia,Doctorate,Females,25th percentile,v88834201,4.4.3.1,x
+2005,Nova Scotia,Doctorate,Females,25th percentile,v88834201,4.4.3.1,x
+2010,Nova Scotia,Doctorate,Females,25th percentile,v88834201,4.4.3.1,x
+2000,Nova Scotia,Doctorate,Females,Median,v88834202,4.4.3.2,57900.00
+2005,Nova Scotia,Doctorate,Females,Median,v88834202,4.4.3.2,57800.00
+2010,Nova Scotia,Doctorate,Females,Median,v88834202,4.4.3.2,76000.00
+2000,Nova Scotia,Doctorate,Females,75th percentile,v88834203,4.4.3.3,x
+2005,Nova Scotia,Doctorate,Females,75th percentile,v88834203,4.4.3.3,x
+2010,Nova Scotia,Doctorate,Females,75th percentile,v88834203,4.4.3.3,x
+2000,New Brunswick,College,Both sexes,25th percentile,v88834204,5.1.1.1,21800.00
+2005,New Brunswick,College,Both sexes,25th percentile,v88834204,5.1.1.1,25000.00
+2010,New Brunswick,College,Both sexes,25th percentile,v88834204,5.1.1.1,27000.00
+2000,New Brunswick,College,Both sexes,Median,v88834205,5.1.1.2,27000.00
+2005,New Brunswick,College,Both sexes,Median,v88834205,5.1.1.2,31200.00
+2010,New Brunswick,College,Both sexes,Median,v88834205,5.1.1.2,34500.00
+2000,New Brunswick,College,Both sexes,75th percentile,v88834206,5.1.1.3,34300.00
+2005,New Brunswick,College,Both sexes,75th percentile,v88834206,5.1.1.3,38900.00
+2010,New Brunswick,College,Both sexes,75th percentile,v88834206,5.1.1.3,42900.00
+2000,New Brunswick,College,Males,25th percentile,v88834207,5.1.2.1,24600.00
+2005,New Brunswick,College,Males,25th percentile,v88834207,5.1.2.1,27000.00
+2010,New Brunswick,College,Males,25th percentile,v88834207,5.1.2.1,29100.00
+2000,New Brunswick,College,Males,Median,v88834208,5.1.2.2,29400.00
+2005,New Brunswick,College,Males,Median,v88834208,5.1.2.2,33300.00
+2010,New Brunswick,College,Males,Median,v88834208,5.1.2.2,38000.00
+2000,New Brunswick,College,Males,75th percentile,v88834209,5.1.2.3,37700.00
+2005,New Brunswick,College,Males,75th percentile,v88834209,5.1.2.3,41500.00
+2010,New Brunswick,College,Males,75th percentile,v88834209,5.1.2.3,46200.00
+2000,New Brunswick,College,Females,25th percentile,v88834210,5.1.3.1,18700.00
+2005,New Brunswick,College,Females,25th percentile,v88834210,5.1.3.1,22300.00
+2010,New Brunswick,College,Females,25th percentile,v88834210,5.1.3.1,25000.00
+2000,New Brunswick,College,Females,Median,v88834211,5.1.3.2,25000.00
+2005,New Brunswick,College,Females,Median,v88834211,5.1.3.2,28100.00
+2010,New Brunswick,College,Females,Median,v88834211,5.1.3.2,31200.00
+2000,New Brunswick,College,Females,75th percentile,v88834212,5.1.3.3,30900.00
+2005,New Brunswick,College,Females,75th percentile,v88834212,5.1.3.3,34600.00
+2010,New Brunswick,College,Females,75th percentile,v88834212,5.1.3.3,40300.00
+2000,New Brunswick,Bachelor's,Both sexes,25th percentile,v88834213,5.2.1.1,26900.00
+2005,New Brunswick,Bachelor's,Both sexes,25th percentile,v88834213,5.2.1.1,30900.00
+2010,New Brunswick,Bachelor's,Both sexes,25th percentile,v88834213,5.2.1.1,37400.00
+2000,New Brunswick,Bachelor's,Both sexes,Median,v88834214,5.2.1.2,36000.00
+2005,New Brunswick,Bachelor's,Both sexes,Median,v88834214,5.2.1.2,41600.00
+2010,New Brunswick,Bachelor's,Both sexes,Median,v88834214,5.2.1.2,52000.00
+2000,New Brunswick,Bachelor's,Both sexes,75th percentile,v88834215,5.2.1.3,47000.00
+2005,New Brunswick,Bachelor's,Both sexes,75th percentile,v88834215,5.2.1.3,50900.00
+2010,New Brunswick,Bachelor's,Both sexes,75th percentile,v88834215,5.2.1.3,65000.00
+2000,New Brunswick,Bachelor's,Males,25th percentile,v88834216,5.2.2.1,27000.00
+2005,New Brunswick,Bachelor's,Males,25th percentile,v88834216,5.2.2.1,31200.00
+2010,New Brunswick,Bachelor's,Males,25th percentile,v88834216,5.2.2.1,40000.00
+2000,New Brunswick,Bachelor's,Males,Median,v88834217,5.2.2.2,38000.00
+2005,New Brunswick,Bachelor's,Males,Median,v88834217,5.2.2.2,42000.00
+2010,New Brunswick,Bachelor's,Males,Median,v88834217,5.2.2.2,53000.00
+2000,New Brunswick,Bachelor's,Males,75th percentile,v88834218,5.2.2.3,52000.00
+2005,New Brunswick,Bachelor's,Males,75th percentile,v88834218,5.2.2.3,50600.00
+2010,New Brunswick,Bachelor's,Males,75th percentile,v88834218,5.2.2.3,70000.00
+2000,New Brunswick,Bachelor's,Females,25th percentile,v88834219,5.2.3.1,26200.00
+2005,New Brunswick,Bachelor's,Females,25th percentile,v88834219,5.2.3.1,30000.00
+2010,New Brunswick,Bachelor's,Females,25th percentile,v88834219,5.2.3.1,37200.00
+2000,New Brunswick,Bachelor's,Females,Median,v88834220,5.2.3.2,34000.00
+2005,New Brunswick,Bachelor's,Females,Median,v88834220,5.2.3.2,40400.00
+2010,New Brunswick,Bachelor's,Females,Median,v88834220,5.2.3.2,48000.00
+2000,New Brunswick,Bachelor's,Females,75th percentile,v88834221,5.2.3.3,43300.00
+2005,New Brunswick,Bachelor's,Females,75th percentile,v88834221,5.2.3.3,51000.00
+2010,New Brunswick,Bachelor's,Females,75th percentile,v88834221,5.2.3.3,60500.00
+2000,New Brunswick,Master's,Both sexes,25th percentile,v88834222,5.3.1.1,40000.00
+2005,New Brunswick,Master's,Both sexes,25th percentile,v88834222,5.3.1.1,45000.00
+2010,New Brunswick,Master's,Both sexes,25th percentile,v88834222,5.3.1.1,50000.00
+2000,New Brunswick,Master's,Both sexes,Median,v88834223,5.3.1.2,50000.00
+2005,New Brunswick,Master's,Both sexes,Median,v88834223,5.3.1.2,57000.00
+2010,New Brunswick,Master's,Both sexes,Median,v88834223,5.3.1.2,68500.00
+2000,New Brunswick,Master's,Both sexes,75th percentile,v88834224,5.3.1.3,60000.00
+2005,New Brunswick,Master's,Both sexes,75th percentile,v88834224,5.3.1.3,69400.00
+2010,New Brunswick,Master's,Both sexes,75th percentile,v88834224,5.3.1.3,80000.00
+2000,New Brunswick,Master's,Males,25th percentile,v88834225,5.3.2.1,45800.00
+2005,New Brunswick,Master's,Males,25th percentile,v88834225,5.3.2.1,46000.00
+2010,New Brunswick,Master's,Males,25th percentile,v88834225,5.3.2.1,46000.00
+2000,New Brunswick,Master's,Males,Median,v88834226,5.3.2.2,57000.00
+2005,New Brunswick,Master's,Males,Median,v88834226,5.3.2.2,57000.00
+2010,New Brunswick,Master's,Males,Median,v88834226,5.3.2.2,71000.00
+2000,New Brunswick,Master's,Males,75th percentile,v88834227,5.3.2.3,65000.00
+2005,New Brunswick,Master's,Males,75th percentile,v88834227,5.3.2.3,71100.00
+2010,New Brunswick,Master's,Males,75th percentile,v88834227,5.3.2.3,85000.00
+2000,New Brunswick,Master's,Females,25th percentile,v88834228,5.3.3.1,40000.00
+2005,New Brunswick,Master's,Females,25th percentile,v88834228,5.3.3.1,43100.00
+2010,New Brunswick,Master's,Females,25th percentile,v88834228,5.3.3.1,52000.00
+2000,New Brunswick,Master's,Females,Median,v88834229,5.3.3.2,48000.00
+2005,New Brunswick,Master's,Females,Median,v88834229,5.3.3.2,57000.00
+2010,New Brunswick,Master's,Females,Median,v88834229,5.3.3.2,65000.00
+2000,New Brunswick,Master's,Females,75th percentile,v88834230,5.3.3.3,55400.00
+2005,New Brunswick,Master's,Females,75th percentile,v88834230,5.3.3.3,67000.00
+2010,New Brunswick,Master's,Females,75th percentile,v88834230,5.3.3.3,80000.00
+2000,New Brunswick,Doctorate,Both sexes,25th percentile,v88834231,5.4.1.1,x
+2005,New Brunswick,Doctorate,Both sexes,25th percentile,v88834231,5.4.1.1,59300.00
+2010,New Brunswick,Doctorate,Both sexes,25th percentile,v88834231,5.4.1.1,67000.00
+2000,New Brunswick,Doctorate,Both sexes,Median,v88834232,5.4.1.2,x
+2005,New Brunswick,Doctorate,Both sexes,Median,v88834232,5.4.1.2,68900.00
+2010,New Brunswick,Doctorate,Both sexes,Median,v88834232,5.4.1.2,81000.00
+2000,New Brunswick,Doctorate,Both sexes,75th percentile,v88834233,5.4.1.3,x
+2005,New Brunswick,Doctorate,Both sexes,75th percentile,v88834233,5.4.1.3,75000.00
+2010,New Brunswick,Doctorate,Both sexes,75th percentile,v88834233,5.4.1.3,92000.00
+2000,New Brunswick,Doctorate,Males,25th percentile,v88834234,5.4.2.1,x
+2005,New Brunswick,Doctorate,Males,25th percentile,v88834234,5.4.2.1,x
+2010,New Brunswick,Doctorate,Males,25th percentile,v88834234,5.4.2.1,x
+2000,New Brunswick,Doctorate,Males,Median,v88834235,5.4.2.2,x
+2005,New Brunswick,Doctorate,Males,Median,v88834235,5.4.2.2,x
+2010,New Brunswick,Doctorate,Males,Median,v88834235,5.4.2.2,92000.00
+2000,New Brunswick,Doctorate,Males,75th percentile,v88834236,5.4.2.3,x
+2005,New Brunswick,Doctorate,Males,75th percentile,v88834236,5.4.2.3,x
+2010,New Brunswick,Doctorate,Males,75th percentile,v88834236,5.4.2.3,x
+2000,New Brunswick,Doctorate,Females,25th percentile,v88834237,5.4.3.1,x
+2005,New Brunswick,Doctorate,Females,25th percentile,v88834237,5.4.3.1,x
+2010,New Brunswick,Doctorate,Females,25th percentile,v88834237,5.4.3.1,x
+2000,New Brunswick,Doctorate,Females,Median,v88834238,5.4.3.2,x
+2005,New Brunswick,Doctorate,Females,Median,v88834238,5.4.3.2,68300.00
+2010,New Brunswick,Doctorate,Females,Median,v88834238,5.4.3.2,81000.00
+2000,New Brunswick,Doctorate,Females,75th percentile,v88834239,5.4.3.3,x
+2005,New Brunswick,Doctorate,Females,75th percentile,v88834239,5.4.3.3,x
+2010,New Brunswick,Doctorate,Females,75th percentile,v88834239,5.4.3.3,x
+2000,Quebec,College,Both sexes,25th percentile,v88834240,6.1.1.1,23400.00
+2005,Quebec,College,Both sexes,25th percentile,v88834240,6.1.1.1,26200.00
+2010,Quebec,College,Both sexes,25th percentile,v88834240,6.1.1.1,32700.00
+2000,Quebec,College,Both sexes,Median,v88834241,6.1.1.2,28000.00
+2005,Quebec,College,Both sexes,Median,v88834241,6.1.1.2,32600.00
+2010,Quebec,College,Both sexes,Median,v88834241,6.1.1.2,40000.00
+2000,Quebec,College,Both sexes,75th percentile,v88834242,6.1.1.3,33800.00
+2005,Quebec,College,Both sexes,75th percentile,v88834242,6.1.1.3,39000.00
+2010,Quebec,College,Both sexes,75th percentile,v88834242,6.1.1.3,47800.00
+2000,Quebec,College,Males,25th percentile,v88834243,6.1.2.1,26000.00
+2005,Quebec,College,Males,25th percentile,v88834243,6.1.2.1,30000.00
+2010,Quebec,College,Males,25th percentile,v88834243,6.1.2.1,35000.00
+2000,Quebec,College,Males,Median,v88834244,6.1.2.2,32200.00
+2005,Quebec,College,Males,Median,v88834244,6.1.2.2,35400.00
+2010,Quebec,College,Males,Median,v88834244,6.1.2.2,44100.00
+2000,Quebec,College,Males,75th percentile,v88834245,6.1.2.3,39300.00
+2005,Quebec,College,Males,75th percentile,v88834245,6.1.2.3,41000.00
+2010,Quebec,College,Males,75th percentile,v88834245,6.1.2.3,55000.00
+2000,Quebec,College,Females,25th percentile,v88834246,6.1.3.1,21600.00
+2005,Quebec,College,Females,25th percentile,v88834246,6.1.3.1,25200.00
+2010,Quebec,College,Females,25th percentile,v88834246,6.1.3.1,31300.00
+2000,Quebec,College,Females,Median,v88834247,6.1.3.2,26000.00
+2005,Quebec,College,Females,Median,v88834247,6.1.3.2,31000.00
+2010,Quebec,College,Females,Median,v88834247,6.1.3.2,37100.00
+2000,Quebec,College,Females,75th percentile,v88834248,6.1.3.3,30200.00
+2005,Quebec,College,Females,75th percentile,v88834248,6.1.3.3,37000.00
+2010,Quebec,College,Females,75th percentile,v88834248,6.1.3.3,45000.00
+2000,Quebec,Bachelor's,Both sexes,25th percentile,v88834249,6.2.1.1,30600.00
+2005,Quebec,Bachelor's,Both sexes,25th percentile,v88834249,6.2.1.1,36000.00
+2010,Quebec,Bachelor's,Both sexes,25th percentile,v88834249,6.2.1.1,41600.00
+2000,Quebec,Bachelor's,Both sexes,Median,v88834250,6.2.1.2,39000.00
+2005,Quebec,Bachelor's,Both sexes,Median,v88834250,6.2.1.2,43000.00
+2010,Quebec,Bachelor's,Both sexes,Median,v88834250,6.2.1.2,50000.00
+2000,Quebec,Bachelor's,Both sexes,75th percentile,v88834251,6.2.1.3,50000.00
+2005,Quebec,Bachelor's,Both sexes,75th percentile,v88834251,6.2.1.3,52500.00
+2010,Quebec,Bachelor's,Both sexes,75th percentile,v88834251,6.2.1.3,62900.00
+2000,Quebec,Bachelor's,Males,25th percentile,v88834252,6.2.2.1,35000.00
+2005,Quebec,Bachelor's,Males,25th percentile,v88834252,6.2.2.1,37500.00
+2010,Quebec,Bachelor's,Males,25th percentile,v88834252,6.2.2.1,47000.00
+2000,Quebec,Bachelor's,Males,Median,v88834253,6.2.2.2,44000.00
+2005,Quebec,Bachelor's,Males,Median,v88834253,6.2.2.2,45000.00
+2010,Quebec,Bachelor's,Males,Median,v88834253,6.2.2.2,53000.00
+2000,Quebec,Bachelor's,Males,75th percentile,v88834254,6.2.2.3,55000.00
+2005,Quebec,Bachelor's,Males,75th percentile,v88834254,6.2.2.3,60000.00
+2010,Quebec,Bachelor's,Males,75th percentile,v88834254,6.2.2.3,65000.00
+2000,Quebec,Bachelor's,Females,25th percentile,v88834255,6.2.3.1,29000.00
+2005,Quebec,Bachelor's,Females,25th percentile,v88834255,6.2.3.1,35000.00
+2010,Quebec,Bachelor's,Females,25th percentile,v88834255,6.2.3.1,40000.00
+2000,Quebec,Bachelor's,Females,Median,v88834256,6.2.3.2,35700.00
+2005,Quebec,Bachelor's,Females,Median,v88834256,6.2.3.2,41000.00
+2010,Quebec,Bachelor's,Females,Median,v88834256,6.2.3.2,47300.00
+2000,Quebec,Bachelor's,Females,75th percentile,v88834257,6.2.3.3,44600.00
+2005,Quebec,Bachelor's,Females,75th percentile,v88834257,6.2.3.3,50000.00
+2010,Quebec,Bachelor's,Females,75th percentile,v88834257,6.2.3.3,57500.00
+2000,Quebec,Master's,Both sexes,25th percentile,v88834258,6.3.1.1,37500.00
+2005,Quebec,Master's,Both sexes,25th percentile,v88834258,6.3.1.1,41600.00
+2010,Quebec,Master's,Both sexes,25th percentile,v88834258,6.3.1.1,52000.00
+2000,Quebec,Master's,Both sexes,Median,v88834259,6.3.1.2,50000.00
+2005,Quebec,Master's,Both sexes,Median,v88834259,6.3.1.2,54000.00
+2010,Quebec,Master's,Both sexes,Median,v88834259,6.3.1.2,65000.00
+2000,Quebec,Master's,Both sexes,75th percentile,v88834260,6.3.1.3,62000.00
+2005,Quebec,Master's,Both sexes,75th percentile,v88834260,6.3.1.3,70000.00
+2010,Quebec,Master's,Both sexes,75th percentile,v88834260,6.3.1.3,80000.00
+2000,Quebec,Master's,Males,25th percentile,v88834261,6.3.2.1,40000.00
+2005,Quebec,Master's,Males,25th percentile,v88834261,6.3.2.1,45000.00
+2010,Quebec,Master's,Males,25th percentile,v88834261,6.3.2.1,56000.00
+2000,Quebec,Master's,Males,Median,v88834262,6.3.2.2,54000.00
+2005,Quebec,Master's,Males,Median,v88834262,6.3.2.2,60000.00
+2010,Quebec,Master's,Males,Median,v88834262,6.3.2.2,70000.00
+2000,Quebec,Master's,Males,75th percentile,v88834263,6.3.2.3,70000.00
+2005,Quebec,Master's,Males,75th percentile,v88834263,6.3.2.3,82000.00
+2010,Quebec,Master's,Males,75th percentile,v88834263,6.3.2.3,89000.00
+2000,Quebec,Master's,Females,25th percentile,v88834264,6.3.3.1,36000.00
+2005,Quebec,Master's,Females,25th percentile,v88834264,6.3.3.1,40000.00
+2010,Quebec,Master's,Females,25th percentile,v88834264,6.3.3.1,52000.00
+2000,Quebec,Master's,Females,Median,v88834265,6.3.3.2,45000.00
+2005,Quebec,Master's,Females,Median,v88834265,6.3.3.2,49300.00
+2010,Quebec,Master's,Females,Median,v88834265,6.3.3.2,60000.00
+2000,Quebec,Master's,Females,75th percentile,v88834266,6.3.3.3,58000.00
+2005,Quebec,Master's,Females,75th percentile,v88834266,6.3.3.3,62000.00
+2010,Quebec,Master's,Females,75th percentile,v88834266,6.3.3.3,75500.00
+2000,Quebec,Doctorate,Both sexes,25th percentile,v88834267,6.4.1.1,45600.00
+2005,Quebec,Doctorate,Both sexes,25th percentile,v88834267,6.4.1.1,44200.00
+2010,Quebec,Doctorate,Both sexes,25th percentile,v88834267,6.4.1.1,55000.00
+2000,Quebec,Doctorate,Both sexes,Median,v88834268,6.4.1.2,58000.00
+2005,Quebec,Doctorate,Both sexes,Median,v88834268,6.4.1.2,59000.00
+2010,Quebec,Doctorate,Both sexes,Median,v88834268,6.4.1.2,72800.00
+2000,Quebec,Doctorate,Both sexes,75th percentile,v88834269,6.4.1.3,75000.00
+2005,Quebec,Doctorate,Both sexes,75th percentile,v88834269,6.4.1.3,73500.00
+2010,Quebec,Doctorate,Both sexes,75th percentile,v88834269,6.4.1.3,99000.00
+2000,Quebec,Doctorate,Males,25th percentile,v88834270,6.4.2.1,46800.00
+2005,Quebec,Doctorate,Males,25th percentile,v88834270,6.4.2.1,44200.00
+2010,Quebec,Doctorate,Males,25th percentile,v88834270,6.4.2.1,55000.00
+2000,Quebec,Doctorate,Males,Median,v88834271,6.4.2.2,60000.00
+2005,Quebec,Doctorate,Males,Median,v88834271,6.4.2.2,62000.00
+2010,Quebec,Doctorate,Males,Median,v88834271,6.4.2.2,69400.00
+2000,Quebec,Doctorate,Males,75th percentile,v88834272,6.4.2.3,75000.00
+2005,Quebec,Doctorate,Males,75th percentile,v88834272,6.4.2.3,75000.00
+2010,Quebec,Doctorate,Males,75th percentile,v88834272,6.4.2.3,92000.00
+2000,Quebec,Doctorate,Females,25th percentile,v88834273,6.4.3.1,44400.00
+2005,Quebec,Doctorate,Females,25th percentile,v88834273,6.4.3.1,44000.00
+2010,Quebec,Doctorate,Females,25th percentile,v88834273,6.4.3.1,60000.00
+2000,Quebec,Doctorate,Females,Median,v88834274,6.4.3.2,57000.00
+2005,Quebec,Doctorate,Females,Median,v88834274,6.4.3.2,56000.00
+2010,Quebec,Doctorate,Females,Median,v88834274,6.4.3.2,73000.00
+2000,Quebec,Doctorate,Females,75th percentile,v88834275,6.4.3.3,75000.00
+2005,Quebec,Doctorate,Females,75th percentile,v88834275,6.4.3.3,69900.00
+2010,Quebec,Doctorate,Females,75th percentile,v88834275,6.4.3.3,112000.00
+2000,Ontario,College,Both sexes,25th percentile,v88834276,7.1.1.1,25000.00
+2005,Ontario,College,Both sexes,25th percentile,v88834276,7.1.1.1,27000.00
+2010,Ontario,College,Both sexes,25th percentile,v88834276,7.1.1.1,32000.00
+2000,Ontario,College,Both sexes,Median,v88834277,7.1.1.2,33500.00
+2005,Ontario,College,Both sexes,Median,v88834277,7.1.1.2,35000.00
+2010,Ontario,College,Both sexes,Median,v88834277,7.1.1.2,40600.00
+2000,Ontario,College,Both sexes,75th percentile,v88834278,7.1.1.3,41200.00
+2005,Ontario,College,Both sexes,75th percentile,v88834278,7.1.1.3,44200.00
+2010,Ontario,College,Both sexes,75th percentile,v88834278,7.1.1.3,56000.00
+2000,Ontario,College,Males,25th percentile,v88834279,7.1.2.1,28600.00
+2005,Ontario,College,Males,25th percentile,v88834279,7.1.2.1,30000.00
+2010,Ontario,College,Males,25th percentile,v88834279,7.1.2.1,37200.00
+2000,Ontario,College,Males,Median,v88834280,7.1.2.2,36400.00
+2005,Ontario,College,Males,Median,v88834280,7.1.2.2,38600.00
+2010,Ontario,College,Males,Median,v88834280,7.1.2.2,46200.00
+2000,Ontario,College,Males,75th percentile,v88834281,7.1.2.3,46300.00
+2005,Ontario,College,Males,75th percentile,v88834281,7.1.2.3,48700.00
+2010,Ontario,College,Males,75th percentile,v88834281,7.1.2.3,65000.00
+2000,Ontario,College,Females,25th percentile,v88834282,7.1.3.1,23400.00
+2005,Ontario,College,Females,25th percentile,v88834282,7.1.3.1,26000.00
+2010,Ontario,College,Females,25th percentile,v88834282,7.1.3.1,30200.00
+2000,Ontario,College,Females,Median,v88834283,7.1.3.2,31000.00
+2005,Ontario,College,Females,Median,v88834283,7.1.3.2,32000.00
+2010,Ontario,College,Females,Median,v88834283,7.1.3.2,37400.00
+2000,Ontario,College,Females,75th percentile,v88834284,7.1.3.3,38000.00
+2005,Ontario,College,Females,75th percentile,v88834284,7.1.3.3,41900.00
+2010,Ontario,College,Females,75th percentile,v88834284,7.1.3.3,51000.00
+2000,Ontario,Bachelor's,Both sexes,25th percentile,v88834285,7.2.1.1,32000.00
+2005,Ontario,Bachelor's,Both sexes,25th percentile,v88834285,7.2.1.1,36500.00
+2010,Ontario,Bachelor's,Both sexes,25th percentile,v88834285,7.2.1.1,39500.00
+2000,Ontario,Bachelor's,Both sexes,Median,v88834286,7.2.1.2,40000.00
+2005,Ontario,Bachelor's,Both sexes,Median,v88834286,7.2.1.2,45500.00
+2010,Ontario,Bachelor's,Both sexes,Median,v88834286,7.2.1.2,54000.00
+2000,Ontario,Bachelor's,Both sexes,75th percentile,v88834287,7.2.1.3,49000.00
+2005,Ontario,Bachelor's,Both sexes,75th percentile,v88834287,7.2.1.3,55000.00
+2010,Ontario,Bachelor's,Both sexes,75th percentile,v88834287,7.2.1.3,67000.00
+2000,Ontario,Bachelor's,Males,25th percentile,v88834288,7.2.2.1,35000.00
+2005,Ontario,Bachelor's,Males,25th percentile,v88834288,7.2.2.1,40000.00
+2010,Ontario,Bachelor's,Males,25th percentile,v88834288,7.2.2.1,42000.00
+2000,Ontario,Bachelor's,Males,Median,v88834289,7.2.2.2,42400.00
+2005,Ontario,Bachelor's,Males,Median,v88834289,7.2.2.2,48000.00
+2010,Ontario,Bachelor's,Males,Median,v88834289,7.2.2.2,58200.00
+2000,Ontario,Bachelor's,Males,75th percentile,v88834290,7.2.2.3,56000.00
+2005,Ontario,Bachelor's,Males,75th percentile,v88834290,7.2.2.3,60000.00
+2010,Ontario,Bachelor's,Males,75th percentile,v88834290,7.2.2.3,72800.00
+2000,Ontario,Bachelor's,Females,25th percentile,v88834291,7.2.3.1,31200.00
+2005,Ontario,Bachelor's,Females,25th percentile,v88834291,7.2.3.1,35000.00
+2010,Ontario,Bachelor's,Females,25th percentile,v88834291,7.2.3.1,38000.00
+2000,Ontario,Bachelor's,Females,Median,v88834292,7.2.3.2,38000.00
+2005,Ontario,Bachelor's,Females,Median,v88834292,7.2.3.2,45000.00
+2010,Ontario,Bachelor's,Females,Median,v88834292,7.2.3.2,53000.00
+2000,Ontario,Bachelor's,Females,75th percentile,v88834293,7.2.3.3,45600.00
+2005,Ontario,Bachelor's,Females,75th percentile,v88834293,7.2.3.3,52000.00
+2010,Ontario,Bachelor's,Females,75th percentile,v88834293,7.2.3.3,65000.00
+2000,Ontario,Master's,Both sexes,25th percentile,v88834294,7.3.1.1,43000.00
+2005,Ontario,Master's,Both sexes,25th percentile,v88834294,7.3.1.1,50000.00
+2010,Ontario,Master's,Both sexes,25th percentile,v88834294,7.3.1.1,50000.00
+2000,Ontario,Master's,Both sexes,Median,v88834295,7.3.1.2,54000.00
+2005,Ontario,Master's,Both sexes,Median,v88834295,7.3.1.2,61000.00
+2010,Ontario,Master's,Both sexes,Median,v88834295,7.3.1.2,70000.00
+2000,Ontario,Master's,Both sexes,75th percentile,v88834296,7.3.1.3,71000.00
+2005,Ontario,Master's,Both sexes,75th percentile,v88834296,7.3.1.3,79000.00
+2010,Ontario,Master's,Both sexes,75th percentile,v88834296,7.3.1.3,88900.00
+2000,Ontario,Master's,Males,25th percentile,v88834297,7.3.2.1,46800.00
+2005,Ontario,Master's,Males,25th percentile,v88834297,7.3.2.1,50000.00
+2010,Ontario,Master's,Males,25th percentile,v88834297,7.3.2.1,58000.00
+2000,Ontario,Master's,Males,Median,v88834298,7.3.2.2,60000.00
+2005,Ontario,Master's,Males,Median,v88834298,7.3.2.2,65000.00
+2010,Ontario,Master's,Males,Median,v88834298,7.3.2.2,76500.00
+2000,Ontario,Master's,Males,75th percentile,v88834299,7.3.2.3,80000.00
+2005,Ontario,Master's,Males,75th percentile,v88834299,7.3.2.3,92000.00
+2010,Ontario,Master's,Males,75th percentile,v88834299,7.3.2.3,100000.00
+2000,Ontario,Master's,Females,25th percentile,v88834300,7.3.3.1,41600.00
+2005,Ontario,Master's,Females,25th percentile,v88834300,7.3.3.1,48700.00
+2010,Ontario,Master's,Females,25th percentile,v88834300,7.3.3.1,46000.00
+2000,Ontario,Master's,Females,Median,v88834301,7.3.3.2,51000.00
+2005,Ontario,Master's,Females,Median,v88834301,7.3.3.2,60000.00
+2010,Ontario,Master's,Females,Median,v88834301,7.3.3.2,64000.00
+2000,Ontario,Master's,Females,75th percentile,v88834302,7.3.3.3,63000.00
+2005,Ontario,Master's,Females,75th percentile,v88834302,7.3.3.3,72000.00
+2010,Ontario,Master's,Females,75th percentile,v88834302,7.3.3.3,80000.00
+2000,Ontario,Doctorate,Both sexes,25th percentile,v88834303,7.4.1.1,43000.00
+2005,Ontario,Doctorate,Both sexes,25th percentile,v88834303,7.4.1.1,51000.00
+2010,Ontario,Doctorate,Both sexes,25th percentile,v88834303,7.4.1.1,60000.00
+2000,Ontario,Doctorate,Both sexes,Median,v88834304,7.4.1.2,58000.00
+2005,Ontario,Doctorate,Both sexes,Median,v88834304,7.4.1.2,67500.00
+2010,Ontario,Doctorate,Both sexes,Median,v88834304,7.4.1.2,80000.00
+2000,Ontario,Doctorate,Both sexes,75th percentile,v88834305,7.4.1.3,72000.00
+2005,Ontario,Doctorate,Both sexes,75th percentile,v88834305,7.4.1.3,80000.00
+2010,Ontario,Doctorate,Both sexes,75th percentile,v88834305,7.4.1.3,95000.00
+2000,Ontario,Doctorate,Males,25th percentile,v88834306,7.4.2.1,42900.00
+2005,Ontario,Doctorate,Males,25th percentile,v88834306,7.4.2.1,49400.00
+2010,Ontario,Doctorate,Males,25th percentile,v88834306,7.4.2.1,60000.00
+2000,Ontario,Doctorate,Males,Median,v88834307,7.4.2.2,58800.00
+2005,Ontario,Doctorate,Males,Median,v88834307,7.4.2.2,68000.00
+2010,Ontario,Doctorate,Males,Median,v88834307,7.4.2.2,80000.00
+2000,Ontario,Doctorate,Males,75th percentile,v88834308,7.4.2.3,75000.00
+2005,Ontario,Doctorate,Males,75th percentile,v88834308,7.4.2.3,81000.00
+2010,Ontario,Doctorate,Males,75th percentile,v88834308,7.4.2.3,100000.00
+2000,Ontario,Doctorate,Females,25th percentile,v88834309,7.4.3.1,44200.00
+2005,Ontario,Doctorate,Females,25th percentile,v88834309,7.4.3.1,54000.00
+2010,Ontario,Doctorate,Females,25th percentile,v88834309,7.4.3.1,60000.00
+2000,Ontario,Doctorate,Females,Median,v88834310,7.4.3.2,56000.00
+2005,Ontario,Doctorate,Females,Median,v88834310,7.4.3.2,67000.00
+2010,Ontario,Doctorate,Females,Median,v88834310,7.4.3.2,77500.00
+2000,Ontario,Doctorate,Females,75th percentile,v88834311,7.4.3.3,68000.00
+2005,Ontario,Doctorate,Females,75th percentile,v88834311,7.4.3.3,80000.00
+2010,Ontario,Doctorate,Females,75th percentile,v88834311,7.4.3.3,92000.00
+2000,Manitoba,College,Both sexes,25th percentile,v88834312,8.1.1.1,21800.00
+2005,Manitoba,College,Both sexes,25th percentile,v88834312,8.1.1.1,26000.00
+2010,Manitoba,College,Both sexes,25th percentile,v88834312,8.1.1.1,31600.00
+2000,Manitoba,College,Both sexes,Median,v88834313,8.1.1.2,26500.00
+2005,Manitoba,College,Both sexes,Median,v88834313,8.1.1.2,32700.00
+2010,Manitoba,College,Both sexes,Median,v88834313,8.1.1.2,40700.00
+2000,Manitoba,College,Both sexes,75th percentile,v88834314,8.1.1.3,35000.00
+2005,Manitoba,College,Both sexes,75th percentile,v88834314,8.1.1.3,41600.00
+2010,Manitoba,College,Both sexes,75th percentile,v88834314,8.1.1.3,56200.00
+2000,Manitoba,College,Males,25th percentile,v88834315,8.1.2.1,25000.00
+2005,Manitoba,College,Males,25th percentile,v88834315,8.1.2.1,29000.00
+2010,Manitoba,College,Males,25th percentile,v88834315,8.1.2.1,35400.00
+2000,Manitoba,College,Males,Median,v88834316,8.1.2.2,31200.00
+2005,Manitoba,College,Males,Median,v88834316,8.1.2.2,34300.00
+2010,Manitoba,College,Males,Median,v88834316,8.1.2.2,48000.00
+2000,Manitoba,College,Males,75th percentile,v88834317,8.1.2.3,41600.00
+2005,Manitoba,College,Males,75th percentile,v88834317,8.1.2.3,43000.00
+2010,Manitoba,College,Males,75th percentile,v88834317,8.1.2.3,60000.00
+2000,Manitoba,College,Females,25th percentile,v88834318,8.1.3.1,20700.00
+2005,Manitoba,College,Females,25th percentile,v88834318,8.1.3.1,25000.00
+2010,Manitoba,College,Females,25th percentile,v88834318,8.1.3.1,29500.00
+2000,Manitoba,College,Females,Median,v88834319,8.1.3.2,24500.00
+2005,Manitoba,College,Females,Median,v88834319,8.1.3.2,30000.00
+2010,Manitoba,College,Females,Median,v88834319,8.1.3.2,36600.00
+2000,Manitoba,College,Females,75th percentile,v88834320,8.1.3.3,30300.00
+2005,Manitoba,College,Females,75th percentile,v88834320,8.1.3.3,39000.00
+2010,Manitoba,College,Females,75th percentile,v88834320,8.1.3.3,44200.00
+2000,Manitoba,Bachelor's,Both sexes,25th percentile,v88834321,8.2.1.1,28100.00
+2005,Manitoba,Bachelor's,Both sexes,25th percentile,v88834321,8.2.1.1,31200.00
+2010,Manitoba,Bachelor's,Both sexes,25th percentile,v88834321,8.2.1.1,43800.00
+2000,Manitoba,Bachelor's,Both sexes,Median,v88834322,8.2.1.2,36000.00
+2005,Manitoba,Bachelor's,Both sexes,Median,v88834322,8.2.1.2,43300.00
+2010,Manitoba,Bachelor's,Both sexes,Median,v88834322,8.2.1.2,57000.00
+2000,Manitoba,Bachelor's,Both sexes,75th percentile,v88834323,8.2.1.3,44200.00
+2005,Manitoba,Bachelor's,Both sexes,75th percentile,v88834323,8.2.1.3,54600.00
+2010,Manitoba,Bachelor's,Both sexes,75th percentile,v88834323,8.2.1.3,66000.00
+2000,Manitoba,Bachelor's,Males,25th percentile,v88834324,8.2.2.1,28800.00
+2005,Manitoba,Bachelor's,Males,25th percentile,v88834324,8.2.2.1,34000.00
+2010,Manitoba,Bachelor's,Males,25th percentile,v88834324,8.2.2.1,46000.00
+2000,Manitoba,Bachelor's,Males,Median,v88834325,8.2.2.2,36400.00
+2005,Manitoba,Bachelor's,Males,Median,v88834325,8.2.2.2,45000.00
+2010,Manitoba,Bachelor's,Males,Median,v88834325,8.2.2.2,60000.00
+2000,Manitoba,Bachelor's,Males,75th percentile,v88834326,8.2.2.3,45000.00
+2005,Manitoba,Bachelor's,Males,75th percentile,v88834326,8.2.2.3,57000.00
+2010,Manitoba,Bachelor's,Males,75th percentile,v88834326,8.2.2.3,74000.00
+2000,Manitoba,Bachelor's,Females,25th percentile,v88834327,8.2.3.1,28000.00
+2005,Manitoba,Bachelor's,Females,25th percentile,v88834327,8.2.3.1,30000.00
+2010,Manitoba,Bachelor's,Females,25th percentile,v88834327,8.2.3.1,40600.00
+2000,Manitoba,Bachelor's,Females,Median,v88834328,8.2.3.2,36000.00
+2005,Manitoba,Bachelor's,Females,Median,v88834328,8.2.3.2,43000.00
+2010,Manitoba,Bachelor's,Females,Median,v88834328,8.2.3.2,55000.00
+2000,Manitoba,Bachelor's,Females,75th percentile,v88834329,8.2.3.3,42900.00
+2005,Manitoba,Bachelor's,Females,75th percentile,v88834329,8.2.3.3,52000.00
+2010,Manitoba,Bachelor's,Females,75th percentile,v88834329,8.2.3.3,63800.00
+2000,Manitoba,Master's,Both sexes,25th percentile,v88834330,8.3.1.1,40000.00
+2005,Manitoba,Master's,Both sexes,25th percentile,v88834330,8.3.1.1,48000.00
+2010,Manitoba,Master's,Both sexes,25th percentile,v88834330,8.3.1.1,57000.00
+2000,Manitoba,Master's,Both sexes,Median,v88834331,8.3.1.2,50000.00
+2005,Manitoba,Master's,Both sexes,Median,v88834331,8.3.1.2,60000.00
+2010,Manitoba,Master's,Both sexes,Median,v88834331,8.3.1.2,68000.00
+2000,Manitoba,Master's,Both sexes,75th percentile,v88834332,8.3.1.3,60000.00
+2005,Manitoba,Master's,Both sexes,75th percentile,v88834332,8.3.1.3,73000.00
+2010,Manitoba,Master's,Both sexes,75th percentile,v88834332,8.3.1.3,89000.00
+2000,Manitoba,Master's,Males,25th percentile,v88834333,8.3.2.1,39300.00
+2005,Manitoba,Master's,Males,25th percentile,v88834333,8.3.2.1,50000.00
+2010,Manitoba,Master's,Males,25th percentile,v88834333,8.3.2.1,57000.00
+2000,Manitoba,Master's,Males,Median,v88834334,8.3.2.2,48000.00
+2005,Manitoba,Master's,Males,Median,v88834334,8.3.2.2,61000.00
+2010,Manitoba,Master's,Males,Median,v88834334,8.3.2.2,70000.00
+2000,Manitoba,Master's,Males,75th percentile,v88834335,8.3.2.3,60000.00
+2005,Manitoba,Master's,Males,75th percentile,v88834335,8.3.2.3,75000.00
+2010,Manitoba,Master's,Males,75th percentile,v88834335,8.3.2.3,91000.00
+2000,Manitoba,Master's,Females,25th percentile,v88834336,8.3.3.1,41300.00
+2005,Manitoba,Master's,Females,25th percentile,v88834336,8.3.3.1,46800.00
+2010,Manitoba,Master's,Females,25th percentile,v88834336,8.3.3.1,56400.00
+2000,Manitoba,Master's,Females,Median,v88834337,8.3.3.2,52000.00
+2005,Manitoba,Master's,Females,Median,v88834337,8.3.3.2,60000.00
+2010,Manitoba,Master's,Females,Median,v88834337,8.3.3.2,65000.00
+2000,Manitoba,Master's,Females,75th percentile,v88834338,8.3.3.3,58700.00
+2005,Manitoba,Master's,Females,75th percentile,v88834338,8.3.3.3,71000.00
+2010,Manitoba,Master's,Females,75th percentile,v88834338,8.3.3.3,85000.00
+2000,Manitoba,Doctorate,Both sexes,25th percentile,v88834339,8.4.1.1,47000.00
+2005,Manitoba,Doctorate,Both sexes,25th percentile,v88834339,8.4.1.1,48400.00
+2010,Manitoba,Doctorate,Both sexes,25th percentile,v88834339,8.4.1.1,72000.00
+2000,Manitoba,Doctorate,Both sexes,Median,v88834340,8.4.1.2,56500.00
+2005,Manitoba,Doctorate,Both sexes,Median,v88834340,8.4.1.2,58000.00
+2010,Manitoba,Doctorate,Both sexes,Median,v88834340,8.4.1.2,82000.00
+2000,Manitoba,Doctorate,Both sexes,75th percentile,v88834341,8.4.1.3,73000.00
+2005,Manitoba,Doctorate,Both sexes,75th percentile,v88834341,8.4.1.3,75000.00
+2010,Manitoba,Doctorate,Both sexes,75th percentile,v88834341,8.4.1.3,85000.00
+2000,Manitoba,Doctorate,Males,25th percentile,v88834342,8.4.2.1,47000.00
+2005,Manitoba,Doctorate,Males,25th percentile,v88834342,8.4.2.1,45000.00
+2010,Manitoba,Doctorate,Males,25th percentile,v88834342,8.4.2.1,59000.00
+2000,Manitoba,Doctorate,Males,Median,v88834343,8.4.2.2,58000.00
+2005,Manitoba,Doctorate,Males,Median,v88834343,8.4.2.2,57700.00
+2010,Manitoba,Doctorate,Males,Median,v88834343,8.4.2.2,82000.00
+2000,Manitoba,Doctorate,Males,75th percentile,v88834344,8.4.2.3,75000.00
+2005,Manitoba,Doctorate,Males,75th percentile,v88834344,8.4.2.3,74000.00
+2010,Manitoba,Doctorate,Males,75th percentile,v88834344,8.4.2.3,93000.00
+2000,Manitoba,Doctorate,Females,25th percentile,v88834345,8.4.3.1,x
+2005,Manitoba,Doctorate,Females,25th percentile,v88834345,8.4.3.1,x
+2010,Manitoba,Doctorate,Females,25th percentile,v88834345,8.4.3.1,74200.00
+2000,Manitoba,Doctorate,Females,Median,v88834346,8.4.3.2,55000.00
+2005,Manitoba,Doctorate,Females,Median,v88834346,8.4.3.2,66000.00
+2010,Manitoba,Doctorate,Females,Median,v88834346,8.4.3.2,82000.00
+2000,Manitoba,Doctorate,Females,75th percentile,v88834347,8.4.3.3,x
+2005,Manitoba,Doctorate,Females,75th percentile,v88834347,8.4.3.3,x
+2010,Manitoba,Doctorate,Females,75th percentile,v88834347,8.4.3.3,84000.00
+2000,Saskatchewan,College,Both sexes,25th percentile,v88834348,9.1.1.1,22700.00
+2005,Saskatchewan,College,Both sexes,25th percentile,v88834348,9.1.1.1,28200.00
+2010,Saskatchewan,College,Both sexes,25th percentile,v88834348,9.1.1.1,39000.00
+2000,Saskatchewan,College,Both sexes,Median,v88834349,9.1.1.2,28300.00
+2005,Saskatchewan,College,Both sexes,Median,v88834349,9.1.1.2,39000.00
+2010,Saskatchewan,College,Both sexes,Median,v88834349,9.1.1.2,52000.00
+2000,Saskatchewan,College,Both sexes,75th percentile,v88834350,9.1.1.3,35400.00
+2005,Saskatchewan,College,Both sexes,75th percentile,v88834350,9.1.1.3,52000.00
+2010,Saskatchewan,College,Both sexes,75th percentile,v88834350,9.1.1.3,65400.00
+2000,Saskatchewan,College,Males,25th percentile,v88834351,9.1.2.1,25000.00
+2005,Saskatchewan,College,Males,25th percentile,v88834351,9.1.2.1,32400.00
+2010,Saskatchewan,College,Males,25th percentile,v88834351,9.1.2.1,48500.00
+2000,Saskatchewan,College,Males,Median,v88834352,9.1.2.2,32000.00
+2005,Saskatchewan,College,Males,Median,v88834352,9.1.2.2,43000.00
+2010,Saskatchewan,College,Males,Median,v88834352,9.1.2.2,58500.00
+2000,Saskatchewan,College,Males,75th percentile,v88834353,9.1.2.3,40900.00
+2005,Saskatchewan,College,Males,75th percentile,v88834353,9.1.2.3,59300.00
+2010,Saskatchewan,College,Males,75th percentile,v88834353,9.1.2.3,73000.00
+2000,Saskatchewan,College,Females,25th percentile,v88834354,9.1.3.1,21400.00
+2005,Saskatchewan,College,Females,25th percentile,v88834354,9.1.3.1,26000.00
+2010,Saskatchewan,College,Females,25th percentile,v88834354,9.1.3.1,36400.00
+2000,Saskatchewan,College,Females,Median,v88834355,9.1.3.2,26500.00
+2005,Saskatchewan,College,Females,Median,v88834355,9.1.3.2,34300.00
+2010,Saskatchewan,College,Females,Median,v88834355,9.1.3.2,40600.00
+2000,Saskatchewan,College,Females,75th percentile,v88834356,9.1.3.3,31200.00
+2005,Saskatchewan,College,Females,75th percentile,v88834356,9.1.3.3,47800.00
+2010,Saskatchewan,College,Females,75th percentile,v88834356,9.1.3.3,54200.00
+2000,Saskatchewan,Bachelor's,Both sexes,25th percentile,v88834357,9.2.1.1,31200.00
+2005,Saskatchewan,Bachelor's,Both sexes,25th percentile,v88834357,9.2.1.1,37000.00
+2010,Saskatchewan,Bachelor's,Both sexes,25th percentile,v88834357,9.2.1.1,49400.00
+2000,Saskatchewan,Bachelor's,Both sexes,Median,v88834358,9.2.1.2,37900.00
+2005,Saskatchewan,Bachelor's,Both sexes,Median,v88834358,9.2.1.2,47500.00
+2010,Saskatchewan,Bachelor's,Both sexes,Median,v88834358,9.2.1.2,60000.00
+2000,Saskatchewan,Bachelor's,Both sexes,75th percentile,v88834359,9.2.1.3,46800.00
+2005,Saskatchewan,Bachelor's,Both sexes,75th percentile,v88834359,9.2.1.3,58200.00
+2010,Saskatchewan,Bachelor's,Both sexes,75th percentile,v88834359,9.2.1.3,75000.00
+2000,Saskatchewan,Bachelor's,Males,25th percentile,v88834360,9.2.2.1,32000.00
+2005,Saskatchewan,Bachelor's,Males,25th percentile,v88834360,9.2.2.1,40000.00
+2010,Saskatchewan,Bachelor's,Males,25th percentile,v88834360,9.2.2.1,53000.00
+2000,Saskatchewan,Bachelor's,Males,Median,v88834361,9.2.2.2,40000.00
+2005,Saskatchewan,Bachelor's,Males,Median,v88834361,9.2.2.2,49000.00
+2010,Saskatchewan,Bachelor's,Males,Median,v88834361,9.2.2.2,65000.00
+2000,Saskatchewan,Bachelor's,Males,75th percentile,v88834362,9.2.2.3,50000.00
+2005,Saskatchewan,Bachelor's,Males,75th percentile,v88834362,9.2.2.3,65000.00
+2010,Saskatchewan,Bachelor's,Males,75th percentile,v88834362,9.2.2.3,78000.00
+2000,Saskatchewan,Bachelor's,Females,25th percentile,v88834363,9.2.3.1,31000.00
+2005,Saskatchewan,Bachelor's,Females,25th percentile,v88834363,9.2.3.1,36000.00
+2010,Saskatchewan,Bachelor's,Females,25th percentile,v88834363,9.2.3.1,45600.00
+2000,Saskatchewan,Bachelor's,Females,Median,v88834364,9.2.3.2,36600.00
+2005,Saskatchewan,Bachelor's,Females,Median,v88834364,9.2.3.2,45400.00
+2010,Saskatchewan,Bachelor's,Females,Median,v88834364,9.2.3.2,58000.00
+2000,Saskatchewan,Bachelor's,Females,75th percentile,v88834365,9.2.3.3,44200.00
+2005,Saskatchewan,Bachelor's,Females,75th percentile,v88834365,9.2.3.3,55200.00
+2010,Saskatchewan,Bachelor's,Females,75th percentile,v88834365,9.2.3.3,72000.00
+2000,Saskatchewan,Master's,Both sexes,25th percentile,v88834366,9.3.1.1,40000.00
+2005,Saskatchewan,Master's,Both sexes,25th percentile,v88834366,9.3.1.1,52000.00
+2010,Saskatchewan,Master's,Both sexes,25th percentile,v88834366,9.3.1.1,65000.00
+2000,Saskatchewan,Master's,Both sexes,Median,v88834367,9.3.1.2,50000.00
+2005,Saskatchewan,Master's,Both sexes,Median,v88834367,9.3.1.2,62200.00
+2010,Saskatchewan,Master's,Both sexes,Median,v88834367,9.3.1.2,83500.00
+2000,Saskatchewan,Master's,Both sexes,75th percentile,v88834368,9.3.1.3,60000.00
+2005,Saskatchewan,Master's,Both sexes,75th percentile,v88834368,9.3.1.3,75000.00
+2010,Saskatchewan,Master's,Both sexes,75th percentile,v88834368,9.3.1.3,100000.00
+2000,Saskatchewan,Master's,Males,25th percentile,v88834369,9.3.2.1,40000.00
+2005,Saskatchewan,Master's,Males,25th percentile,v88834369,9.3.2.1,54000.00
+2010,Saskatchewan,Master's,Males,25th percentile,v88834369,9.3.2.1,65000.00
+2000,Saskatchewan,Master's,Males,Median,v88834370,9.3.2.2,52000.00
+2005,Saskatchewan,Master's,Males,Median,v88834370,9.3.2.2,65000.00
+2010,Saskatchewan,Master's,Males,Median,v88834370,9.3.2.2,88000.00
+2000,Saskatchewan,Master's,Males,75th percentile,v88834371,9.3.2.3,68000.00
+2005,Saskatchewan,Master's,Males,75th percentile,v88834371,9.3.2.3,77000.00
+2010,Saskatchewan,Master's,Males,75th percentile,v88834371,9.3.2.3,102000.00
+2000,Saskatchewan,Master's,Females,25th percentile,v88834372,9.3.3.1,38500.00
+2005,Saskatchewan,Master's,Females,25th percentile,v88834372,9.3.3.1,50000.00
+2010,Saskatchewan,Master's,Females,25th percentile,v88834372,9.3.3.1,63000.00
+2000,Saskatchewan,Master's,Females,Median,v88834373,9.3.3.2,48100.00
+2005,Saskatchewan,Master's,Females,Median,v88834373,9.3.3.2,60000.00
+2010,Saskatchewan,Master's,Females,Median,v88834373,9.3.3.2,82000.00
+2000,Saskatchewan,Master's,Females,75th percentile,v88834374,9.3.3.3,57500.00
+2005,Saskatchewan,Master's,Females,75th percentile,v88834374,9.3.3.3,72000.00
+2010,Saskatchewan,Master's,Females,75th percentile,v88834374,9.3.3.3,96000.00
+2000,Saskatchewan,Doctorate,Both sexes,25th percentile,v88834375,9.4.1.1,39000.00
+2005,Saskatchewan,Doctorate,Both sexes,25th percentile,v88834375,9.4.1.1,43000.00
+2010,Saskatchewan,Doctorate,Both sexes,25th percentile,v88834375,9.4.1.1,47000.00
+2000,Saskatchewan,Doctorate,Both sexes,Median,v88834376,9.4.1.2,46200.00
+2005,Saskatchewan,Doctorate,Both sexes,Median,v88834376,9.4.1.2,62000.00
+2010,Saskatchewan,Doctorate,Both sexes,Median,v88834376,9.4.1.2,70000.00
+2000,Saskatchewan,Doctorate,Both sexes,75th percentile,v88834377,9.4.1.3,58800.00
+2005,Saskatchewan,Doctorate,Both sexes,75th percentile,v88834377,9.4.1.3,72000.00
+2010,Saskatchewan,Doctorate,Both sexes,75th percentile,v88834377,9.4.1.3,90000.00
+2000,Saskatchewan,Doctorate,Males,25th percentile,v88834378,9.4.2.1,38400.00
+2005,Saskatchewan,Doctorate,Males,25th percentile,v88834378,9.4.2.1,43000.00
+2010,Saskatchewan,Doctorate,Males,25th percentile,v88834378,9.4.2.1,x
+2000,Saskatchewan,Doctorate,Males,Median,v88834379,9.4.2.2,46200.00
+2005,Saskatchewan,Doctorate,Males,Median,v88834379,9.4.2.2,63000.00
+2010,Saskatchewan,Doctorate,Males,Median,v88834379,9.4.2.2,62000.00
+2000,Saskatchewan,Doctorate,Males,75th percentile,v88834380,9.4.2.3,58000.00
+2005,Saskatchewan,Doctorate,Males,75th percentile,v88834380,9.4.2.3,78000.00
+2010,Saskatchewan,Doctorate,Males,75th percentile,v88834380,9.4.2.3,x
+2000,Saskatchewan,Doctorate,Females,25th percentile,v88834381,9.4.3.1,x
+2005,Saskatchewan,Doctorate,Females,25th percentile,v88834381,9.4.3.1,45000.00
+2010,Saskatchewan,Doctorate,Females,25th percentile,v88834381,9.4.3.1,52000.00
+2000,Saskatchewan,Doctorate,Females,Median,v88834382,9.4.3.2,46000.00
+2005,Saskatchewan,Doctorate,Females,Median,v88834382,9.4.3.2,60500.00
+2010,Saskatchewan,Doctorate,Females,Median,v88834382,9.4.3.2,70000.00
+2000,Saskatchewan,Doctorate,Females,75th percentile,v88834383,9.4.3.3,x
+2005,Saskatchewan,Doctorate,Females,75th percentile,v88834383,9.4.3.3,70000.00
+2010,Saskatchewan,Doctorate,Females,75th percentile,v88834383,9.4.3.3,100000.00
+2000,Alberta,College,Both sexes,25th percentile,v88834384,10.1.1.1,26000.00
+2005,Alberta,College,Both sexes,25th percentile,v88834384,10.1.1.1,32000.00
+2010,Alberta,College,Both sexes,25th percentile,v88834384,10.1.1.1,38000.00
+2000,Alberta,College,Both sexes,Median,v88834385,10.1.1.2,33300.00
+2005,Alberta,College,Both sexes,Median,v88834385,10.1.1.2,40000.00
+2010,Alberta,College,Both sexes,Median,v88834385,10.1.1.2,50000.00
+2000,Alberta,College,Both sexes,75th percentile,v88834386,10.1.1.3,44000.00
+2005,Alberta,College,Both sexes,75th percentile,v88834386,10.1.1.3,52000.00
+2010,Alberta,College,Both sexes,75th percentile,v88834386,10.1.1.3,71300.00
+2000,Alberta,College,Males,25th percentile,v88834387,10.1.2.1,31200.00
+2005,Alberta,College,Males,25th percentile,v88834387,10.1.2.1,36000.00
+2010,Alberta,College,Males,25th percentile,v88834387,10.1.2.1,46600.00
+2000,Alberta,College,Males,Median,v88834388,10.1.2.2,39000.00
+2005,Alberta,College,Males,Median,v88834388,10.1.2.2,48000.00
+2010,Alberta,College,Males,Median,v88834388,10.1.2.2,60000.00
+2000,Alberta,College,Males,75th percentile,v88834389,10.1.2.3,49300.00
+2005,Alberta,College,Males,75th percentile,v88834389,10.1.2.3,65000.00
+2010,Alberta,College,Males,75th percentile,v88834389,10.1.2.3,82000.00
+2000,Alberta,College,Females,25th percentile,v88834390,10.1.3.1,23400.00
+2005,Alberta,College,Females,25th percentile,v88834390,10.1.3.1,30900.00
+2010,Alberta,College,Females,25th percentile,v88834390,10.1.3.1,34100.00
+2000,Alberta,College,Females,Median,v88834391,10.1.3.2,29100.00
+2005,Alberta,College,Females,Median,v88834391,10.1.3.2,36600.00
+2010,Alberta,College,Females,Median,v88834391,10.1.3.2,42800.00
+2000,Alberta,College,Females,75th percentile,v88834392,10.1.3.3,38000.00
+2005,Alberta,College,Females,75th percentile,v88834392,10.1.3.3,46600.00
+2010,Alberta,College,Females,75th percentile,v88834392,10.1.3.3,55800.00
+2000,Alberta,Bachelor's,Both sexes,25th percentile,v88834393,10.2.1.1,31200.00
+2005,Alberta,Bachelor's,Both sexes,25th percentile,v88834393,10.2.1.1,37000.00
+2010,Alberta,Bachelor's,Both sexes,25th percentile,v88834393,10.2.1.1,48000.00
+2000,Alberta,Bachelor's,Both sexes,Median,v88834394,10.2.1.2,39000.00
+2005,Alberta,Bachelor's,Both sexes,Median,v88834394,10.2.1.2,50000.00
+2010,Alberta,Bachelor's,Both sexes,Median,v88834394,10.2.1.2,63000.00
+2000,Alberta,Bachelor's,Both sexes,75th percentile,v88834395,10.2.1.3,49600.00
+2005,Alberta,Bachelor's,Both sexes,75th percentile,v88834395,10.2.1.3,61000.00
+2010,Alberta,Bachelor's,Both sexes,75th percentile,v88834395,10.2.1.3,77300.00
+2000,Alberta,Bachelor's,Males,25th percentile,v88834396,10.2.2.1,34000.00
+2005,Alberta,Bachelor's,Males,25th percentile,v88834396,10.2.2.1,43000.00
+2010,Alberta,Bachelor's,Males,25th percentile,v88834396,10.2.2.1,49400.00
+2000,Alberta,Bachelor's,Males,Median,v88834397,10.2.2.2,40000.00
+2005,Alberta,Bachelor's,Males,Median,v88834397,10.2.2.2,53400.00
+2010,Alberta,Bachelor's,Males,Median,v88834397,10.2.2.2,69000.00
+2000,Alberta,Bachelor's,Males,75th percentile,v88834398,10.2.2.3,50000.00
+2005,Alberta,Bachelor's,Males,75th percentile,v88834398,10.2.2.3,65000.00
+2010,Alberta,Bachelor's,Males,75th percentile,v88834398,10.2.2.3,87000.00
+2000,Alberta,Bachelor's,Females,25th percentile,v88834399,10.2.3.1,30000.00
+2005,Alberta,Bachelor's,Females,25th percentile,v88834399,10.2.3.1,35500.00
+2010,Alberta,Bachelor's,Females,25th percentile,v88834399,10.2.3.1,45000.00
+2000,Alberta,Bachelor's,Females,Median,v88834400,10.2.3.2,38000.00
+2005,Alberta,Bachelor's,Females,Median,v88834400,10.2.3.2,47500.00
+2010,Alberta,Bachelor's,Females,Median,v88834400,10.2.3.2,60000.00
+2000,Alberta,Bachelor's,Females,75th percentile,v88834401,10.2.3.3,47300.00
+2005,Alberta,Bachelor's,Females,75th percentile,v88834401,10.2.3.3,60000.00
+2010,Alberta,Bachelor's,Females,75th percentile,v88834401,10.2.3.3,74000.00
+2000,Alberta,Master's,Both sexes,25th percentile,v88834402,10.3.1.1,44200.00
+2005,Alberta,Master's,Both sexes,25th percentile,v88834402,10.3.1.1,55000.00
+2010,Alberta,Master's,Both sexes,25th percentile,v88834402,10.3.1.1,69200.00
+2000,Alberta,Master's,Both sexes,Median,v88834403,10.3.1.2,58500.00
+2005,Alberta,Master's,Both sexes,Median,v88834403,10.3.1.2,71600.00
+2010,Alberta,Master's,Both sexes,Median,v88834403,10.3.1.2,85000.00
+2000,Alberta,Master's,Both sexes,75th percentile,v88834404,10.3.1.3,72000.00
+2005,Alberta,Master's,Both sexes,75th percentile,v88834404,10.3.1.3,90000.00
+2010,Alberta,Master's,Both sexes,75th percentile,v88834404,10.3.1.3,104000.00
+2000,Alberta,Master's,Males,25th percentile,v88834405,10.3.2.1,50000.00
+2005,Alberta,Master's,Males,25th percentile,v88834405,10.3.2.1,55200.00
+2010,Alberta,Master's,Males,25th percentile,v88834405,10.3.2.1,74000.00
+2000,Alberta,Master's,Males,Median,v88834406,10.3.2.2,65000.00
+2005,Alberta,Master's,Males,Median,v88834406,10.3.2.2,78000.00
+2010,Alberta,Master's,Males,Median,v88834406,10.3.2.2,91200.00
+2000,Alberta,Master's,Males,75th percentile,v88834407,10.3.2.3,85000.00
+2005,Alberta,Master's,Males,75th percentile,v88834407,10.3.2.3,108000.00
+2010,Alberta,Master's,Males,75th percentile,v88834407,10.3.2.3,130000.00
+2000,Alberta,Master's,Females,25th percentile,v88834408,10.3.3.1,40000.00
+2005,Alberta,Master's,Females,25th percentile,v88834408,10.3.3.1,55000.00
+2010,Alberta,Master's,Females,25th percentile,v88834408,10.3.3.1,67000.00
+2000,Alberta,Master's,Females,Median,v88834409,10.3.3.2,50000.00
+2005,Alberta,Master's,Females,Median,v88834409,10.3.3.2,70000.00
+2010,Alberta,Master's,Females,Median,v88834409,10.3.3.2,82000.00
+2000,Alberta,Master's,Females,75th percentile,v88834410,10.3.3.3,61000.00
+2005,Alberta,Master's,Females,75th percentile,v88834410,10.3.3.3,82000.00
+2010,Alberta,Master's,Females,75th percentile,v88834410,10.3.3.3,100000.00
+2000,Alberta,Doctorate,Both sexes,25th percentile,v88834411,10.4.1.1,43300.00
+2005,Alberta,Doctorate,Both sexes,25th percentile,v88834411,10.4.1.1,51000.00
+2010,Alberta,Doctorate,Both sexes,25th percentile,v88834411,10.4.1.1,55000.00
+2000,Alberta,Doctorate,Both sexes,Median,v88834412,10.4.1.2,57600.00
+2005,Alberta,Doctorate,Both sexes,Median,v88834412,10.4.1.2,70000.00
+2010,Alberta,Doctorate,Both sexes,Median,v88834412,10.4.1.2,72000.00
+2000,Alberta,Doctorate,Both sexes,75th percentile,v88834413,10.4.1.3,71000.00
+2005,Alberta,Doctorate,Both sexes,75th percentile,v88834413,10.4.1.3,82500.00
+2010,Alberta,Doctorate,Both sexes,75th percentile,v88834413,10.4.1.3,100000.00
+2000,Alberta,Doctorate,Males,25th percentile,v88834414,10.4.2.1,47000.00
+2005,Alberta,Doctorate,Males,25th percentile,v88834414,10.4.2.1,50000.00
+2010,Alberta,Doctorate,Males,25th percentile,v88834414,10.4.2.1,61000.00
+2000,Alberta,Doctorate,Males,Median,v88834415,10.4.2.2,58800.00
+2005,Alberta,Doctorate,Males,Median,v88834415,10.4.2.2,70000.00
+2010,Alberta,Doctorate,Males,Median,v88834415,10.4.2.2,83000.00
+2000,Alberta,Doctorate,Males,75th percentile,v88834416,10.4.2.3,71000.00
+2005,Alberta,Doctorate,Males,75th percentile,v88834416,10.4.2.3,85800.00
+2010,Alberta,Doctorate,Males,75th percentile,v88834416,10.4.2.3,104000.00
+2000,Alberta,Doctorate,Females,25th percentile,v88834417,10.4.3.1,39000.00
+2005,Alberta,Doctorate,Females,25th percentile,v88834417,10.4.3.1,52000.00
+2010,Alberta,Doctorate,Females,25th percentile,v88834417,10.4.3.1,50000.00
+2000,Alberta,Doctorate,Females,Median,v88834418,10.4.3.2,54000.00
+2005,Alberta,Doctorate,Females,Median,v88834418,10.4.3.2,69000.00
+2010,Alberta,Doctorate,Females,Median,v88834418,10.4.3.2,63000.00
+2000,Alberta,Doctorate,Females,75th percentile,v88834419,10.4.3.3,71000.00
+2005,Alberta,Doctorate,Females,75th percentile,v88834419,10.4.3.3,80000.00
+2010,Alberta,Doctorate,Females,75th percentile,v88834419,10.4.3.3,85000.00
+2000,British Columbia,College,Both sexes,25th percentile,v88834420,11.1.1.1,26000.00
+2005,British Columbia,College,Both sexes,25th percentile,v88834420,11.1.1.1,30200.00
+2010,British Columbia,College,Both sexes,25th percentile,v88834420,11.1.1.1,35400.00
+2000,British Columbia,College,Both sexes,Median,v88834421,11.1.1.2,33800.00
+2005,British Columbia,College,Both sexes,Median,v88834421,11.1.1.2,39000.00
+2010,British Columbia,College,Both sexes,Median,v88834421,11.1.1.2,45500.00
+2000,British Columbia,College,Both sexes,75th percentile,v88834422,11.1.1.3,42700.00
+2005,British Columbia,College,Both sexes,75th percentile,v88834422,11.1.1.3,51000.00
+2010,British Columbia,College,Both sexes,75th percentile,v88834422,11.1.1.3,61800.00
+2000,British Columbia,College,Males,25th percentile,v88834423,11.1.2.1,29700.00
+2005,British Columbia,College,Males,25th percentile,v88834423,11.1.2.1,33000.00
+2010,British Columbia,College,Males,25th percentile,v88834423,11.1.2.1,35000.00
+2000,British Columbia,College,Males,Median,v88834424,11.1.2.2,35600.00
+2005,British Columbia,College,Males,Median,v88834424,11.1.2.2,45000.00
+2010,British Columbia,College,Males,Median,v88834424,11.1.2.2,48000.00
+2000,British Columbia,College,Males,75th percentile,v88834425,11.1.2.3,45000.00
+2005,British Columbia,College,Males,75th percentile,v88834425,11.1.2.3,60000.00
+2010,British Columbia,College,Males,75th percentile,v88834425,11.1.2.3,62400.00
+2000,British Columbia,College,Females,25th percentile,v88834426,11.1.3.1,24000.00
+2005,British Columbia,College,Females,25th percentile,v88834426,11.1.3.1,29100.00
+2010,British Columbia,College,Females,25th percentile,v88834426,11.1.3.1,35400.00
+2000,British Columbia,College,Females,Median,v88834427,11.1.3.2,31600.00
+2005,British Columbia,College,Females,Median,v88834427,11.1.3.2,36000.00
+2010,British Columbia,College,Females,Median,v88834427,11.1.3.2,42200.00
+2000,British Columbia,College,Females,75th percentile,v88834428,11.1.3.3,41500.00
+2005,British Columbia,College,Females,75th percentile,v88834428,11.1.3.3,43000.00
+2010,British Columbia,College,Females,75th percentile,v88834428,11.1.3.3,60000.00
+2000,British Columbia,Bachelor's,Both sexes,25th percentile,v88834429,11.2.1.1,30000.00
+2005,British Columbia,Bachelor's,Both sexes,25th percentile,v88834429,11.2.1.1,33800.00
+2010,British Columbia,Bachelor's,Both sexes,25th percentile,v88834429,11.2.1.1,40000.00
+2000,British Columbia,Bachelor's,Both sexes,Median,v88834430,11.2.1.2,39000.00
+2005,British Columbia,Bachelor's,Both sexes,Median,v88834430,11.2.1.2,44000.00
+2010,British Columbia,Bachelor's,Both sexes,Median,v88834430,11.2.1.2,49200.00
+2000,British Columbia,Bachelor's,Both sexes,75th percentile,v88834431,11.2.1.3,48700.00
+2005,British Columbia,Bachelor's,Both sexes,75th percentile,v88834431,11.2.1.3,56000.00
+2010,British Columbia,Bachelor's,Both sexes,75th percentile,v88834431,11.2.1.3,68900.00
+2000,British Columbia,Bachelor's,Males,25th percentile,v88834432,11.2.2.1,30000.00
+2005,British Columbia,Bachelor's,Males,25th percentile,v88834432,11.2.2.1,36000.00
+2010,British Columbia,Bachelor's,Males,25th percentile,v88834432,11.2.2.1,41000.00
+2000,British Columbia,Bachelor's,Males,Median,v88834433,11.2.2.2,40000.00
+2005,British Columbia,Bachelor's,Males,Median,v88834433,11.2.2.2,48000.00
+2010,British Columbia,Bachelor's,Males,Median,v88834433,11.2.2.2,54100.00
+2000,British Columbia,Bachelor's,Males,75th percentile,v88834434,11.2.2.3,50000.00
+2005,British Columbia,Bachelor's,Males,75th percentile,v88834434,11.2.2.3,60000.00
+2010,British Columbia,Bachelor's,Males,75th percentile,v88834434,11.2.2.3,78000.00
+2000,British Columbia,Bachelor's,Females,25th percentile,v88834435,11.2.3.1,30000.00
+2005,British Columbia,Bachelor's,Females,25th percentile,v88834435,11.2.3.1,32800.00
+2010,British Columbia,Bachelor's,Females,25th percentile,v88834435,11.2.3.1,39000.00
+2000,British Columbia,Bachelor's,Females,Median,v88834436,11.2.3.2,38200.00
+2005,British Columbia,Bachelor's,Females,Median,v88834436,11.2.3.2,42000.00
+2010,British Columbia,Bachelor's,Females,Median,v88834436,11.2.3.2,47000.00
+2000,British Columbia,Bachelor's,Females,75th percentile,v88834437,11.2.3.3,47700.00
+2005,British Columbia,Bachelor's,Females,75th percentile,v88834437,11.2.3.3,54000.00
+2010,British Columbia,Bachelor's,Females,75th percentile,v88834437,11.2.3.3,60000.00
+2000,British Columbia,Master's,Both sexes,25th percentile,v88834438,11.3.1.1,42000.00
+2005,British Columbia,Master's,Both sexes,25th percentile,v88834438,11.3.1.1,50400.00
+2010,British Columbia,Master's,Both sexes,25th percentile,v88834438,11.3.1.1,60000.00
+2000,British Columbia,Master's,Both sexes,Median,v88834439,11.3.1.2,55000.00
+2005,British Columbia,Master's,Both sexes,Median,v88834439,11.3.1.2,66000.00
+2010,British Columbia,Master's,Both sexes,Median,v88834439,11.3.1.2,73500.00
+2000,British Columbia,Master's,Both sexes,75th percentile,v88834440,11.3.1.3,67000.00
+2005,British Columbia,Master's,Both sexes,75th percentile,v88834440,11.3.1.3,80000.00
+2010,British Columbia,Master's,Both sexes,75th percentile,v88834440,11.3.1.3,90000.00
+2000,British Columbia,Master's,Males,25th percentile,v88834441,11.3.2.1,44000.00
+2005,British Columbia,Master's,Males,25th percentile,v88834441,11.3.2.1,50400.00
+2010,British Columbia,Master's,Males,25th percentile,v88834441,11.3.2.1,65000.00
+2000,British Columbia,Master's,Males,Median,v88834442,11.3.2.2,58000.00
+2005,British Columbia,Master's,Males,Median,v88834442,11.3.2.2,65000.00
+2010,British Columbia,Master's,Males,Median,v88834442,11.3.2.2,81000.00
+2000,British Columbia,Master's,Males,75th percentile,v88834443,11.3.2.3,75000.00
+2005,British Columbia,Master's,Males,75th percentile,v88834443,11.3.2.3,82000.00
+2010,British Columbia,Master's,Males,75th percentile,v88834443,11.3.2.3,101500.00
+2000,British Columbia,Master's,Females,25th percentile,v88834444,11.3.3.1,40000.00
+2005,British Columbia,Master's,Females,25th percentile,v88834444,11.3.3.1,51000.00
+2010,British Columbia,Master's,Females,25th percentile,v88834444,11.3.3.1,56000.00
+2000,British Columbia,Master's,Females,Median,v88834445,11.3.3.2,54000.00
+2005,British Columbia,Master's,Females,Median,v88834445,11.3.3.2,67000.00
+2010,British Columbia,Master's,Females,Median,v88834445,11.3.3.2,70000.00
+2000,British Columbia,Master's,Females,75th percentile,v88834446,11.3.3.3,65000.00
+2005,British Columbia,Master's,Females,75th percentile,v88834446,11.3.3.3,79000.00
+2010,British Columbia,Master's,Females,75th percentile,v88834446,11.3.3.3,85000.00
+2000,British Columbia,Doctorate,Both sexes,25th percentile,v88834447,11.4.1.1,42400.00
+2005,British Columbia,Doctorate,Both sexes,25th percentile,v88834447,11.4.1.1,45200.00
+2010,British Columbia,Doctorate,Both sexes,25th percentile,v88834447,11.4.1.1,60000.00
+2000,British Columbia,Doctorate,Both sexes,Median,v88834448,11.4.1.2,55000.00
+2005,British Columbia,Doctorate,Both sexes,Median,v88834448,11.4.1.2,65000.00
+2010,British Columbia,Doctorate,Both sexes,Median,v88834448,11.4.1.2,83200.00
+2000,British Columbia,Doctorate,Both sexes,75th percentile,v88834449,11.4.1.3,70000.00
+2005,British Columbia,Doctorate,Both sexes,75th percentile,v88834449,11.4.1.3,80000.00
+2010,British Columbia,Doctorate,Both sexes,75th percentile,v88834449,11.4.1.3,101000.00
+2000,British Columbia,Doctorate,Males,25th percentile,v88834450,11.4.2.1,45900.00
+2005,British Columbia,Doctorate,Males,25th percentile,v88834450,11.4.2.1,45200.00
+2010,British Columbia,Doctorate,Males,25th percentile,v88834450,11.4.2.1,60000.00
+2000,British Columbia,Doctorate,Males,Median,v88834451,11.4.2.2,59000.00
+2005,British Columbia,Doctorate,Males,Median,v88834451,11.4.2.2,67600.00
+2010,British Columbia,Doctorate,Males,Median,v88834451,11.4.2.2,85000.00
+2000,British Columbia,Doctorate,Males,75th percentile,v88834452,11.4.2.3,72000.00
+2005,British Columbia,Doctorate,Males,75th percentile,v88834452,11.4.2.3,83200.00
+2010,British Columbia,Doctorate,Males,75th percentile,v88834452,11.4.2.3,120000.00
+2000,British Columbia,Doctorate,Females,25th percentile,v88834453,11.4.3.1,37600.00
+2005,British Columbia,Doctorate,Females,25th percentile,v88834453,11.4.3.1,45000.00
+2010,British Columbia,Doctorate,Females,25th percentile,v88834453,11.4.3.1,55000.00
+2000,British Columbia,Doctorate,Females,Median,v88834454,11.4.3.2,52900.00
+2005,British Columbia,Doctorate,Females,Median,v88834454,11.4.3.2,65000.00
+2010,British Columbia,Doctorate,Females,Median,v88834454,11.4.3.2,78000.00
+2000,British Columbia,Doctorate,Females,75th percentile,v88834455,11.4.3.3,63000.00
+2005,British Columbia,Doctorate,Females,75th percentile,v88834455,11.4.3.3,78000.00
+2010,British Columbia,Doctorate,Females,75th percentile,v88834455,11.4.3.3,94000.00
