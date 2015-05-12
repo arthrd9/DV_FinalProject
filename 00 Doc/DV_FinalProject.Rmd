@@ -19,7 +19,7 @@ source("../01 Data/packages.R", echo = FALSE)
 ```
 
 ```{r, message=FALSE}
-source("../01 Data/Dataframes.R", echo = FALSE)
+source("../02 Data Wrangling/Dataframes.R", echo = FALSE)
 ```
 
 We pulled four datasets from a national survey of graduates data, which span over 2000, 2005, and 2010.
@@ -55,8 +55,7 @@ From this data, we created a visualization of average salary of doctorate gradua
 doctorate_earnings %>% ggplot(aes(x=GEO, y=VALUE, color=GENDER)) + geom_point() + ggtitle('Average Doctorate Graduate Earnings') + scale_color_brewer(palette="Set1") + facet_wrap(~REF_DATE) + theme(axis.text.x=element_text(angle=90, size=10, vjust=0.4), plot.title = element_text(size=20, face="bold", vjust=2), axis.title.x = element_blank())
 ```
 
-![](./03 Visualizations/AvgDocEarnings.png)
-ADD COMMENTS HERE
+PNG
 
 #####Average College Earnings
 
@@ -73,7 +72,7 @@ Here, we did a similiar wrangle to the average salary of college graduates, by g
 college_earnings %>% ggplot(aes(x=GEO, y=VALUE, color=GENDER)) + geom_point() + ggtitle('Average College Graduate Earnings') + scale_color_brewer(palette="Set1") + facet_wrap(~REF_DATE) + theme(axis.text.x=element_text(angle=90, size=10, vjust=0.4), plot.title = element_text(size=20, face="bold", vjust=2), axis.title.x = element_blank())
 ```
 
-![](./03 Visualizations/AvgCollegeEarnings.png)
+PNG
 
 
 ####Grad Debt, by Averages and Percentages of Grads who have Paid Off 
@@ -91,7 +90,7 @@ From this data, we wanted to create a visualization for the average debt owed fo
 debt2010 <- grad_debt %>% filter(REF_DATE == 2010, SOURCE == "Graduates who owed money for their education to government student loan programs", STATS == "Average debt owed to the source at time of graduation dollars", VALUE != "null") %>% ggplot(aes(x=GEO, y=VALUE, color=SCHOOL)) + geom_point() + ggtitle('Average Debt Owed\n to Government Loans in 2010') + scale_color_brewer(palette="Set1") + theme(axis.text.x=element_text(angle=90, size=10, vjust=0.4), axis.title.y = element_blank(), axis.title.x = element_blank(), legend.title=element_blank(), plot.title = element_text(size=20, face="bold", vjust=2, lineheight=0.8))
 ```
 
-![](./03 Visualizations/AvgCollegeEarnings.png)
+PNG
 
 ####Grad Employment, by Rates and Percentages
 
@@ -117,7 +116,7 @@ tbl_df(college_employment_rates)
 
 We created a bar chart that looks at the employment rates across Canada for each year.
 
-![](./03 Visualizations/CollegeEmployment.png)
+PNG
 
 #####Average Doctorate Employment Rates
 ```{r, eval=FALSE}
@@ -128,7 +127,7 @@ doctorate_employment_rates <- grad_employment %>% filter(SCHOOL %in% c("Doctorat
 tbl_df(doctorate_employment_rates)
 ```
 
-![](./03 Visualizations/DoctorateEmployment.png)
+PNG
 
 ####Grad Loans, to Government and Non-Government Sources
 
