@@ -37,7 +37,7 @@ tbl_df(grad_earnings)
 Using data wrangling, we can compare the average salary for doctorate graduates with the average salary for college graduates, by gender.
 
 
-#####Average Graduate Earnings
+#####Average Doctorate Earnings
 
 For our graduate earnings data, we looked at the pay gap between men and women's average salary, at different schooling levels.
 
@@ -129,12 +129,10 @@ tbl_df(doctorate_employment_rates)
 
 PNG
 
-####Grad Loans, to Government and Non-Government Sources
+##Tableau
 
-```{r, eval=FALSE}
-grad_loans <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.84:5001/rest/native/?query= "select REF_DATE, GEO, SCHOOL, SOURCE, STATS, VALUE from GRAD_LOANS "')),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_map4542', PASS='orcl_map4542', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
-```
-
-```{r, message=FALSE, echo = FALSE}
-tbl_df(grad_loans)
-```
+(insert earnings plot)
+(insert employment rate plot)
+(insert graduation numbers plots)
+(insert average debt owed)
+(insert difference debt)

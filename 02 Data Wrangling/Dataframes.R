@@ -44,8 +44,5 @@ college_employment_rates <- grad_employment %>% filter(SCHOOL %in% c("College"),
 
 grad_employment %>% filter(SCHOOL %in% c("College"), STATS %in%  c("Unemployed rate", "Employed percent"), GENDER != "Both sexes", VALUE != "null") %>% arrange(desc(VALUE)) %>% ggplot(aes(x = STATS, fill = STATS)) + geom_bar(stat= "bin") + ggtitle('College Employment Across Canada') + theme(axis.title.y = element_blank(), axis.text.x = element_blank(), axis.title.x = element_blank(), plot.title = element_text(size=20, face="bold", vjust=2, lineheight=0.8), legend.title=element_blank()) + facet_wrap(~REF_DATE)
 
-####################################################################################################
-
-##Grad Loans
 
 

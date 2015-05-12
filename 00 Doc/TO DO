@@ -1,0 +1,13 @@
+TO DO:
+
+- Insert PNG's of R plots from Visualization folder (PNG has been placed in the RMD where a PNG should be inserted)
+- Add comments underneath each PNG, that explains some correlation or what we were looking for (maximize benefits of graph attributes)
+- Add Tableau PNG's to the bottom of RMD
+- Double check all visualizations and make sure data is correct/representative
+- Clean up! Whether it's style, text editing, or new plots - The more we look like we know, the better
+
+- Powerpoint: all plots
+  - Introduce selves, data types and objective/questions going into research? (is there a gender gap?     education gap?)
+  - Introduce dataframes
+  - Show R plots
+  - Show Tableau plots (these are more flexible with our data)
