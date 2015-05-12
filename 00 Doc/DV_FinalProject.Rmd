@@ -7,12 +7,13 @@ output:
     theme: cerulean
     highlight: tango
 ---
-For our final project, we wanted to explore data provided by the government of Canada through their Open Data portal. We choose this source for it's credibility, accessibility, and variety of datasets.
+For our final project, we wanted to explore data provided by the government of Canada through their Open Data portal. We choose this source for its credibility, accessibility, and variety of comparative datasets.
 
 
 ##The Data: College Graduates Survey
 
-As college students, we were primarily interested in looking into Canadian college graduate data.
+As college students ourselves, we were interested in looking into Canadian college graduate data.
+
 ```{r, include=FALSE, results = "hide"}
 source("../01 Data/packages.R", echo = FALSE)
 ```
@@ -22,7 +23,7 @@ source("../01 Data/Dataframes.R", echo = FALSE)
 
 We pulled four datasets from a national survey of graduates data, which span over 2000, 2005, and 2010.
 
-####Grad Earnings
+####Grad Earnings, by Gender and Median Earning
 
 ```{r, eval=FALSE}
 grad_earnings <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.84:5001/rest/native/?query= "select REF_DATE, GEO, SCHOOL, GENDER, STATS, VALUE from GRAD_EARNINGS "')),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_map4542', PASS='orcl_map4542', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
@@ -32,7 +33,36 @@ grad_earnings <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.1
 tbl_df(grad_earnings)
 ```
 
-####Grad Debt
+Using data wrangling, we can compare the average salary for doctorate graduates with the average salary for college graduates, by gender.
+
+
+#####Average Graduate Earnings
+For our graduate earnings data, we looked at the pay gap between men and women's average salary, at different schooling levels.
+
+```{r, eval = FALSE}
+grad_earnings %>% filter(SCHOOL %in% c("Doctorate"), STATS == "Median", GENDER != "Both sexes", VALUE != "null") %>% head(grad_earnings)
+```
+```{r, message=FALSE, echo = FALSE}
+tbl_df(doctorate_earnings)
+```
+From this data, we created a visualization of average salary of doctorate graduates, by gender.
+
+![](./03 Visualizations/AvgDocEarnings.png)
+
+
+#####Average College Earnings
+```{r, eval = FALSE}
+college_earnings <- grad_earnings %>% filter(SCHOOL %in% c("College"), STATS == "Median", GENDER != "Both sexes", VALUE != "null")
+```
+```{r, message=FALSE, echo = FALSE}
+tbl_df(college_earnings)
+```
+Here, we did a similiar wrangle to the average salary of college graduates, by gender.
+
+![](./03 Visualizations/AvgCollegeEarnings.png)
+
+
+####Grad Debt, by Averages and Percentages of Grads who have Paid Off 
 
 ```{r, eval=FALSE}
 grad_debt <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.84:5001/rest/native/?query= "select REF_DATE, GEO, SCHOOL, SOURCE, STATS, VALUE from GRAD_DEBT "')),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_map4542', PASS='orcl_map4542', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
@@ -42,9 +72,7 @@ grad_debt <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.8
 tbl_df(grad_debt)
 ```
 
-####Grad Employment
-
-The Grad Employment dataset is nearly twice the size of our other datasets, and includes gender as a measure.
+####Grad Employment, by Rates and Percentages
 
 ```{r, eval=FALSE}
 grad_employment <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.84:5001/rest/native/?query= "select REF_DATE, GEO, SCHOOL, GENDER, STATS, VALUE from GRAD_EMPLOYMENT "')),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_map4542', PASS='orcl_map4542', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
@@ -54,7 +82,7 @@ grad_employment <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152
 tbl_df(grad_employment)
 ```
 
-####Grad Loans
+####Grad Loans, to Government and Non-Government Sources
 ```{r, eval=FALSE}
 grad_loans <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.84:5001/rest/native/?query= "select REF_DATE, GEO, SCHOOL, SOURCE, STATS, VALUE from GRAD_LOANS "')),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_map4542', PASS='orcl_map4542', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
 ```

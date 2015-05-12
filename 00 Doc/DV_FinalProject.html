@@ -71,14 +71,14 @@ code > span.er { font-weight: bold; }
 </div>
 
 
-<p>For our final project, we wanted to explore data provided by the government of Canada through their Open Data portal. We choose this source for it’s credibility, accessibility, and variety of datasets.</p>
+<p>For our final project, we wanted to explore data provided by the government of Canada through their Open Data portal. We choose this source for its credibility, accessibility, and variety of comparative datasets.</p>
 <div id="the-data-college-graduates-survey" class="section level2">
 <h2>The Data: College Graduates Survey</h2>
-<p>As college students, we were primarily interested in looking into Canadian college graduate data.</p>
+<p>As college students ourselves, we were interested in looking into Canadian college graduate data.</p>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">source</span>(<span class="st">&quot;../01 Data/Dataframes.R&quot;</span>, <span class="dt">echo =</span> <span class="ot">FALSE</span>)</code></pre>
 <p>We pulled four datasets from a national survey of graduates data, which span over 2000, 2005, and 2010.</p>
-<div id="grad-earnings" class="section level4">
-<h4>Grad Earnings</h4>
+<div id="grad-earnings-by-gender-and-median-earning" class="section level4">
+<h4>Grad Earnings, by Gender and Median Earning</h4>
 <pre class="sourceCode r"><code class="sourceCode r">grad_earnings &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select REF_DATE, GEO, SCHOOL, GENDER, STATS, VALUE from GRAD_EARNINGS &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
 <pre><code>## Source: local data frame [1,080 x 6]
 ## 
@@ -94,9 +94,48 @@ code > span.er { font-weight: bold; }
 ## 9      2010 Prince Edward Island Masters      Males 25th percentile  null
 ## 10     2000 Prince Edward Island Masters      Males          Median  null
 ## ..      ...                  ...     ...        ...             ...   ...</code></pre>
+<p>Using data wrangling, we can compare the average salary for doctorate graduates with the average salary for college graduates, by gender.</p>
+<div id="average-graduate-earnings" class="section level5">
+<h5>Average Graduate Earnings</h5>
+<pre class="sourceCode r"><code class="sourceCode r">grad_earnings %&gt;%<span class="st"> </span><span class="kw">filter</span>(SCHOOL %in%<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Doctorate&quot;</span>), STATS ==<span class="st"> &quot;Median&quot;</span>, GENDER !=<span class="st"> &quot;Both sexes&quot;</span>, VALUE !=<span class="st"> &quot;null&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">head</span>(grad_earnings)</code></pre>
+<pre><code>## Source: local data frame [45 x 6]
+## 
+##    REF_DATE           GEO    SCHOOL  GENDER  STATS VALUE
+## 1      2000   Nova Scotia Doctorate   Males Median 52000
+## 2      2005   Nova Scotia Doctorate   Males Median 57200
+## 3      2010   Nova Scotia Doctorate   Males Median 72000
+## 4      2000   Nova Scotia Doctorate Females Median 57900
+## 5      2005   Nova Scotia Doctorate Females Median 57800
+## 6      2010   Nova Scotia Doctorate Females Median 76000
+## 7      2010 New Brunswick Doctorate   Males Median 92000
+## 8      2005 New Brunswick Doctorate Females Median 68300
+## 9      2010 New Brunswick Doctorate Females Median 81000
+## 10     2000        Quebec Doctorate   Males Median 60000
+## ..      ...           ...       ...     ...    ...   ...</code></pre>
+<p>From this data, we created a visualization of average salary of doctorate graduates, by gender.</p>
+<p>[]AvgCollegeEarnings.Png</p>
 </div>
-<div id="grad-debt" class="section level4">
-<h4>Grad Debt</h4>
+<div id="average-college-earnings" class="section level5">
+<h5>Average College Earnings</h5>
+<pre class="sourceCode r"><code class="sourceCode r">college_earnings &lt;-<span class="st"> </span>grad_earnings %&gt;%<span class="st"> </span><span class="kw">filter</span>(SCHOOL %in%<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;College&quot;</span>), STATS ==<span class="st"> &quot;Median&quot;</span>, GENDER !=<span class="st"> &quot;Both sexes&quot;</span>, VALUE !=<span class="st"> &quot;null&quot;</span>)</code></pre>
+<pre><code>## Source: local data frame [60 x 6]
+## 
+##    REF_DATE           GEO  SCHOOL  GENDER  STATS VALUE
+## 1      2000   Nova Scotia College   Males Median 29100
+## 2      2005   Nova Scotia College   Males Median 32800
+## 3      2010   Nova Scotia College   Males Median 41600
+## 4      2000   Nova Scotia College Females Median 21200
+## 5      2005   Nova Scotia College Females Median 27200
+## 6      2010   Nova Scotia College Females Median 34000
+## 7      2000 New Brunswick College   Males Median 29400
+## 8      2005 New Brunswick College   Males Median 33300
+## 9      2010 New Brunswick College   Males Median 38000
+## 10     2000 New Brunswick College Females Median 25000
+## ..      ...           ...     ...     ...    ...   ...</code></pre>
+</div>
+</div>
+<div id="grad-debt-by-averages-and-percentages-of-grads-who-have-paid-off" class="section level4">
+<h4>Grad Debt, by Averages and Percentages of Grads who have Paid Off</h4>
 <pre class="sourceCode r"><code class="sourceCode r">grad_debt &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select REF_DATE, GEO, SCHOOL, SOURCE, STATS, VALUE from GRAD_DEBT &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
 <pre><code>## Source: local data frame [1,800 x 6]
 ## 
@@ -114,9 +153,8 @@ code > span.er { font-weight: bold; }
 ## ..      ...                       ...       ...
 ## Variables not shown: SOURCE (fctr), STATS (fctr), VALUE (fctr)</code></pre>
 </div>
-<div id="grad-employment" class="section level4">
-<h4>Grad Employment</h4>
-<p>The Grad Employment data set is nearly twice the size of our other datasets, and includes gender as a measure.</p>
+<div id="grad-employment-by-rates-and-percentages" class="section level4">
+<h4>Grad Employment, by Rates and Percentages</h4>
 <pre class="sourceCode r"><code class="sourceCode r">grad_employment &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select REF_DATE, GEO, SCHOOL, GENDER, STATS, VALUE from GRAD_EMPLOYMENT &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
 <pre><code>## Source: local data frame [2,160 x 6]
 ## 
@@ -134,8 +172,8 @@ code > span.er { font-weight: bold; }
 ## ..      ...                       ...     ...        ...
 ## Variables not shown: STATS (fctr), VALUE (fctr)</code></pre>
 </div>
-<div id="grad-loans" class="section level4">
-<h4>Grad Loans</h4>
+<div id="grad-loans-to-government-and-non-government-sources" class="section level4">
+<h4>Grad Loans, to Government and Non-Government Sources</h4>
 <pre class="sourceCode r"><code class="sourceCode r">grad_loans &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select REF_DATE, GEO, SCHOOL, SOURCE, STATS, VALUE from GRAD_LOANS &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
 <pre><code>## Source: local data frame [1,800 x 6]
 ## 
