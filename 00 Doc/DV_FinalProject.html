@@ -97,8 +97,8 @@ code > span.er { font-weight: bold; }
 </div>
 <div id="grad-debt" class="section level4">
 <h4>Grad Debt</h4>
-<pre class="sourceCode r"><code class="sourceCode r">grad_debt &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select * from GRAD_DEBT &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
-<pre><code>## Source: local data frame [1,800 x 8]
+<pre class="sourceCode r"><code class="sourceCode r">grad_debt &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select REF_DATE, GEO, SCHOOL, SOURCE, STATS, VALUE from GRAD_DEBT &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
+<pre><code>## Source: local data frame [1,800 x 6]
 ## 
 ##    REF_DATE                       GEO    SCHOOL
 ## 1      2000 Newfoundland and Labrador Bachelors
@@ -112,13 +112,13 @@ code > span.er { font-weight: bold; }
 ## 9      2010 Newfoundland and Labrador Bachelors
 ## 10     2000 Newfoundland and Labrador Bachelors
 ## ..      ...                       ...       ...
-## Variables not shown: SOURCE (fctr), STATS (fctr), VECTOR (fctr),
-##   COORDINATE (fctr), VALUE (fctr)</code></pre>
+## Variables not shown: SOURCE (fctr), STATS (fctr), VALUE (fctr)</code></pre>
 </div>
 <div id="grad-employment" class="section level4">
 <h4>Grad Employment</h4>
-<pre class="sourceCode r"><code class="sourceCode r">grad_employment &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select * from GRAD_EMPLOYMENT &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
-<pre><code>## Source: local data frame [2,160 x 8]
+<p>The Grad Employment data set is nearly twice the size of our other datasets, and includes gender as a measure.</p>
+<pre class="sourceCode r"><code class="sourceCode r">grad_employment &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select REF_DATE, GEO, SCHOOL, GENDER, STATS, VALUE from GRAD_EMPLOYMENT &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
+<pre><code>## Source: local data frame [2,160 x 6]
 ## 
 ##    REF_DATE                       GEO  SCHOOL     GENDER
 ## 1      2005 Newfoundland and Labrador Masters Both sexes
@@ -132,13 +132,12 @@ code > span.er { font-weight: bold; }
 ## 9      2000 Newfoundland and Labrador Masters      Males
 ## 10     2005 Newfoundland and Labrador Masters      Males
 ## ..      ...                       ...     ...        ...
-## Variables not shown: STATS (fctr), VECTOR (fctr), COORDINATE (fctr), VALUE
-##   (fctr)</code></pre>
+## Variables not shown: STATS (fctr), VALUE (fctr)</code></pre>
 </div>
 <div id="grad-loans" class="section level4">
 <h4>Grad Loans</h4>
-<pre class="sourceCode r"><code class="sourceCode r">grad_loans &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select * from GRAD_LOANS &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
-<pre><code>## Source: local data frame [1,800 x 8]
+<pre class="sourceCode r"><code class="sourceCode r">grad_loans &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="kw">fromJSON</span>(<span class="kw">getURL</span>(<span class="kw">URLencode</span>(<span class="kw">gsub</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot; &quot;</span>, <span class="st">'129.152.144.84:5001/rest/native/?query= &quot;select REF_DATE, GEO, SCHOOL, SOURCE, STATS, VALUE from GRAD_LOANS &quot;'</span>)),<span class="dt">httpheader=</span><span class="kw">c</span>(<span class="dt">DB=</span><span class="st">'jdbc:oracle:thin:@129.152.144.84:1521:ORCL'</span>, <span class="dt">USER=</span><span class="st">'C##cs329e_map4542'</span>, <span class="dt">PASS=</span><span class="st">'orcl_map4542'</span>, <span class="dt">MODE=</span><span class="st">'native_mode'</span>, <span class="dt">MODEL=</span><span class="st">'model'</span>, <span class="dt">returnDimensions =</span> <span class="st">'False'</span>, <span class="dt">returnFor =</span> <span class="st">'JSON'</span>), <span class="dt">verbose =</span> <span class="ot">TRUE</span>)))</code></pre>
+<pre><code>## Source: local data frame [1,800 x 6]
 ## 
 ##    REF_DATE                       GEO    SCHOOL
 ## 1      2000 Newfoundland and Labrador Bachelors
@@ -152,8 +151,7 @@ code > span.er { font-weight: bold; }
 ## 9      2010 Newfoundland and Labrador Bachelors
 ## 10     2000 Newfoundland and Labrador Bachelors
 ## ..      ...                       ...       ...
-## Variables not shown: SOURCE (fctr), STATS (fctr), VECTOR (fctr),
-##   COORDINATE (fctr), VALUE (fctr)</code></pre>
+## Variables not shown: SOURCE (fctr), STATS (fctr), VALUE (fctr)</code></pre>
 </div>
 </div>
 
