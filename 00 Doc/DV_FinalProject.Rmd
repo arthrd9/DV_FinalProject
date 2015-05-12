@@ -1,20 +1,62 @@
 ---
 title: "DV_FinalProject"
-output: html_document
+author: "Madeline Packard and Arthur DeVitalis"
+date: "May 13, 2015"
+output:
+  html_document:
+    theme: cerulean
+    highlight: tango
 ---
+For our final project, we wanted to explore data provided by the government of Canada through their Open Data portal. We choose this source for it's credibility, accessibility, and variety of datasets.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+##The Data: College Graduates Survey
 
-```{r}
-summary(cars)
+As college students, we were primarily interested in looking into Canadian college graduate data.
+```{r, include=FALSE, results = "hide"}
+source("../01 Data/packages.R", echo = FALSE)
+```
+```{r, message=FALSE}
+source("../01 Data/Dataframes.R", echo = FALSE)
 ```
 
-You can also embed plots, for example:
+We pulled four datasets from a national survey of graduates data, which span over 2000, 2005, and 2010.
 
-```{r, echo=FALSE}
-plot(cars)
+####Grad Earnings
+
+```{r, eval=FALSE}
+grad_earnings <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.84:5001/rest/native/?query= "select REF_DATE, GEO, SCHOOL, GENDER, STATS, VALUE from GRAD_EARNINGS "')),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_map4542', PASS='orcl_map4542', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r, message=FALSE, echo = FALSE}
+tbl_df(grad_earnings)
+```
+
+####Grad Debt
+
+```{r, eval=FALSE}
+grad_debt <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.84:5001/rest/native/?query= "select * from GRAD_DEBT "')),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_map4542', PASS='orcl_map4542', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
+```
+
+```{r, message=FALSE, echo = FALSE}
+tbl_df(grad_debt)
+```
+
+####Grad Employment
+
+```{r, eval=FALSE}
+grad_employment <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.84:5001/rest/native/?query= "select * from GRAD_EMPLOYMENT "')),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_map4542', PASS='orcl_map4542', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
+```
+
+```{r, message=FALSE, echo = FALSE}
+tbl_df(grad_employment)
+```
+
+####Grad Loans
+```{r, eval=FALSE}
+grad_loans <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152.144.84:5001/rest/native/?query= "select * from GRAD_LOANS "')),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_map4542', PASS='orcl_map4542', MODE='native_mode', MODEL='model', returnDimensions = 'False', returnFor = 'JSON'), verbose = TRUE)))
+```
+
+```{r, message=FALSE, echo = FALSE}
+tbl_df(grad_loans)
+```
