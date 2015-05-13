@@ -57,9 +57,6 @@ doctorate_earnings %>% ggplot(aes(x=GEO, y=VALUE, color=GENDER)) + geom_point() 
 ```
 ![](./AvgDocEarnings.png)  
 
-img <- readPNG("AvgDocEarnings.png")
-
-library
 #####Average College Earnings
 
 ```{r, eval = FALSE}
