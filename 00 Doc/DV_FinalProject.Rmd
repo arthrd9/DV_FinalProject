@@ -1,5 +1,4 @@
 ---
-
 title: "DV_FinalProject"
 author: "Madeline Packard and Arthur DeVitalis"
 date: "May 13, 2015"
