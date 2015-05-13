@@ -101,7 +101,7 @@ grad_employment <- data.frame(fromJSON(getURL(URLencode(gsub("\n", " ", '129.152
 tbl_df(grad_employment)
 ```
 
-We were intersted in the unemployment and emploment rates for both sexes, at the highest and lowest school levels.
+We were interested in the unemployment and emploment rates for both sexes, at the highest and lowest school levels.
 
 #####Average College Employment Rates
 
