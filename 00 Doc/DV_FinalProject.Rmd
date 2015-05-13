@@ -130,7 +130,7 @@ tbl_df(doctorate_employment_rates)
 
 ##Tableau
 
-![](./Medearning.png)  
+![](./Map.png) 
 
 
 ![](./employ%.png) 
@@ -138,9 +138,12 @@ tbl_df(doctorate_employment_rates)
 
 ![](./college.png)  
 
+
 ![](./bach.png)  
 
+
 ![](./mastgend.png)  
+
 
 ![](./doc.png)  
 
